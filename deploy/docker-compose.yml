@@ -1,0 +1,82 @@
+# Segredos em deploy/secrets/ e dados em deploy/data/ (ambos fora do git). Nenhuma porta é publicada no host.
+# Primeira vez: DIRECT_PENDRIVE=/caminho/do/pendrive docker compose run --rm setup (ver README.md).
+services:
+  postgres:
+    image: postgres:17
+    restart: unless-stopped
+    # Trava a pasta de dados: o setup sobe um PostgreSQL próprio sobre ela, e os dois nunca podem rodar juntos.
+    entrypoint: ["flock", "-n", "-F", "/var/lib/postgresql/data", "docker-entrypoint.sh"]
+    command: ["postgres"]
+    environment:
+      POSTGRES_DB: direct
+      POSTGRES_USER: direct
+      POSTGRES_PASSWORD_FILE: /run/secrets/db_password
+    secrets:
+      - db_password
+    volumes:
+      - ./data/postgres:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U direct -d direct"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  directd:
+    build: ../server
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      DIRECT_DB_HOST: postgres
+      DIRECT_DB_NAME: direct
+      DIRECT_DB_USER: direct
+      DIRECT_DB_PASSWORD_FILE: /run/secrets/db_password
+      DIRECT_SERVER_SIGN_KEY_FILE: /data/server_sign.key   # semente Ed25519 do servidor, criada na 1ª subida
+      DIRECT_TRUSTED_IP_HEADER: CF-Connecting-IP           # IP real do cliente
+      DIRECT_TRUSTED_PROXY: cloudflared                    # o cabeçalho acima só vale vindo deste contêiner
+      DIRECT_PUBLIC_HOST: ${DIRECT_PUBLIC_HOST:-}          # domínio do QR; o setup grava em deploy/.env
+      DIRECT_LISTEN: ":8080"
+    volumes:
+      - ./data/directd:/data   # chave de assinatura do servidor e registro de comandos
+    secrets:
+      - db_password
+    # sem "ports:" de propósito: só o cloudflared alcança directd pela rede interna
+
+  cloudflared:
+    image: cloudflare/cloudflared:latest
+    restart: unless-stopped
+    depends_on:
+      - directd
+    command: tunnel --no-autoupdate run --token-file /run/secrets/cf_tunnel_token
+    secrets:
+      - cf_tunnel_token
+
+  # Instalador (deploy/setup.sh): sem rede, com PostgreSQL e directd temporários só dentro dele.
+  setup:
+    profiles: [setup]
+    build:
+      context: ../server
+      target: setup
+    network_mode: none
+    init: true
+    cap_add: [LINUX_IMMUTABLE]   # chattr +a no registro de comandos
+    environment:
+      DIRECT_PENDRIVE: ${DIRECT_PENDRIVE:-}
+      DIRECT_ADMIN_OPERATOR: ${DIRECT_ADMIN_OPERATOR:-setup}
+    volumes:
+      - .:/deploy
+      - ./data/postgres:/var/lib/postgresql/data
+      - ./data/directd:/data
+      - ..:/project:ro           # para recusar chave privada dentro do projeto
+      - type: bind
+        source: ${DIRECT_PENDRIVE:-/dev/null}
+        target: /pendrive
+        bind:
+          create_host_path: false   # caminho errado falha em vez de virar uma pasta no disco do servidor
+
+secrets:
+  db_password:
+    file: ./secrets/db_password
+  cf_tunnel_token:
+    file: ./secrets/cf_tunnel_token
