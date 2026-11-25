@@ -1,0 +1,27 @@
+# segredos
+deploy/secrets/
+deploy/data/
+*.env
+.env*
+
+# Go
+server/bin/
+*.test
+*.out
+
+# Flutter / Dart
+app/build/
+app/.dart_tool/
+app/.flutter-plugins
+app/.flutter-plugins-dependencies
+app/android/.gradle/
+app/android/local.properties
+app/ios/Pods/
+app/ios/Flutter/Generated.xcconfig
+app/ios/Flutter/flutter_export_environment.sh
+app/*.iml
+
+# IDE / SO
+.idea/
+.vscode/
+.DS_Store
