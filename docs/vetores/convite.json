@@ -1,0 +1,35 @@
+{
+  "host": "direct.exemplo.com.br",
+  "invite_seed": "eec3a51abf91f6129c2ce91b9e81520420bb8b3a71f4348021f4ca113da078c4",
+  "invite_seed_b64u": "7sOlGr-R9hKcLOkbnoFSBCC7izpx9DSAIfTKET2geMQ",
+  "invite_pub": "be9d45c34b5e89086f19aca3a2a7d46cb7b164aa9ebcca3a91fe50e808dafda3",
+  "invite_pub_b64u": "vp1Fw0teiQhvGayjoqfUbLexZKqevMo6kf5Q6Aja_aM",
+  "server_sign_pub_b64u": "RL7f1bcoEzuiMVmKQDxUnBUBCw6U79-hVweiCVmV92Q",
+  "escrow_pub_b64u": "HLsflAMdAnq29ymTKqlnjAgSh5FfzFeWLdXwfRG8pzc",
+  "qr_uri": "direct://enroll?v=1&h=direct.exemplo.com.br&t=7sOlGr-R9hKcLOkbnoFSBCC7izpx9DSAIfTKET2geMQ&s=RL7f1bcoEzuiMVmKQDxUnBUBCw6U79-hVweiCVmV92Q&e=HLsflAMdAnq29ymTKqlnjAgSh5FfzFeWLdXwfRG8pzc",
+  "codigo_entrada": "6469726563742f76312f7365727665722d636f64650044bedfd5b728133ba231598a403c549c15010b0e94efdfa15707a2095995f7641cbb1f94031d027ab6f729932aa9678c081287915fcc57962dd5f07d11bca737",
+  "codigo_blake2b256": "8a8e3ec60f2ef3f32f265152ef16395daa4cf97a72741c417582e8d8bf13a76f",
+  "codigo_verificacao": "65455 96422 51481 29850",
+  "qr_invalidos": [
+    {
+      "uri": "direct://enroll?v=2&h=direct.exemplo.com.br&t=7sOlGr-R9hKcLOkbnoFSBCC7izpx9DSAIfTKET2geMQ&s=RL7f1bcoEzuiMVmKQDxUnBUBCw6U79-hVweiCVmV92Q&e=HLsflAMdAnq29ymTKqlnjAgSh5FfzFeWLdXwfRG8pzc",
+      "motivo": "versão desconhecida"
+    },
+    {
+      "uri": "direct://enroll?v=1&h=direct.exemplo.com.br&t=7sOlGr-R9hKcLOkbnoFSBCC7izpx9DSAIfTKET2geMQ=&s=RL7f1bcoEzuiMVmKQDxUnBUBCw6U79-hVweiCVmV92Q&e=HLsflAMdAnq29ymTKqlnjAgSh5FfzFeWLdXwfRG8pzc",
+      "motivo": "base64url com padding"
+    },
+    {
+      "uri": "direct://enroll?v=1&h=direct.exemplo.com.br&t=7sOlGr-R9hKcLOkbnoFSBCC7izpx9DSAIfTKET2geA&s=RL7f1bcoEzuiMVmKQDxUnBUBCw6U79-hVweiCVmV92Q&e=HLsflAMdAnq29ymTKqlnjAgSh5FfzFeWLdXwfRG8pzc",
+      "motivo": "token com 31 bytes"
+    },
+    {
+      "uri": "direct://enroll?v=1&h=direct.exemplo.com.br&h=evil.example&t=7sOlGr-R9hKcLOkbnoFSBCC7izpx9DSAIfTKET2geMQ&s=RL7f1bcoEzuiMVmKQDxUnBUBCw6U79-hVweiCVmV92Q&e=HLsflAMdAnq29ymTKqlnjAgSh5FfzFeWLdXwfRG8pzc",
+      "motivo": "parâmetro repetido"
+    },
+    {
+      "uri": "direct://enroll?v=1&h=Direct.Exemplo.com.br&t=7sOlGr-R9hKcLOkbnoFSBCC7izpx9DSAIfTKET2geMQ&s=RL7f1bcoEzuiMVmKQDxUnBUBCw6U79-hVweiCVmV92Q&e=HLsflAMdAnq29ymTKqlnjAgSh5FfzFeWLdXwfRG8pzc",
+      "motivo": "host com maiúscula"
+    }
+  ]
+}

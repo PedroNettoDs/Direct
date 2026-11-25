@@ -1,0 +1,198 @@
+{
+  "descricao": "Épocas 1 e 2 do grupo comum de cadeia.json (protocolo-grupos §5 e §6), metadados cifrados, liberação de histórico e épocas que a cadeia recusa. As verificações de cadeia usam o estado depois do registro 2.",
+  "conversation_id": "b7c8d9e0-f1a2-4b3c-8d4e-5f6a7b8c9d0e",
+  "escrow_pub": "1cbb1f94031d027ab6f729932aa9678c081287915fcc57962dd5f07d11bca737",
+  "epocas": [
+    {
+      "epoch": 1,
+      "creator": "A",
+      "chain_n": 1,
+      "chain_hash": "40cc395985488164d9e17e57198f6eeb36eff0cbfef76d34919a603fa81e172c",
+      "chave_epoca": "9c78e422424e7086af5cbcd9a1751767961330db1dfadd35d280725fef2e213d",
+      "key_commitment": "c70b16fe03dd9ec8ff95109c8741672bd8e288d4e00d330b406266dc16f86c81",
+      "recipients_ordenados": [
+        "1f2e3d4c-5b6a-4978-8695-a4b3c2d1e0f9",
+        "8e7d6c5b-4a39-4281-b7c6-d5e4f3a2b1c0",
+        "c3a1e2f4-5b6d-4e7f-8a9b-0c1d2e3f4a5b"
+      ],
+      "statement_bytes": "6469726563742f76312f67726f75702d65706f636800b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e00000001c3a1e2f45b6d4e7f8a9b0c1d2e3f4a5bc70b16fe03dd9ec8ff95109c8741672bd8e288d4e00d330b406266dc16f86c811cbb1f94031d027ab6f729932aa9678c081287915fcc57962dd5f07d11bca737000000000000000140cc395985488164d9e17e57198f6eeb36eff0cbfef76d34919a603fa81e172c000000031f2e3d4c5b6a49788695a4b3c2d1e0f98e7d6c5b4a394281b7c6d5e4f3a2b1c0c3a1e2f45b6d4e7f8a9b0c1d2e3f4a5b",
+      "statement_sig": "f07a4139e9399d899589d8302664767bafa0382bb642c088a13ac3816bc4fbc93bf17b4a4045f0b88cc3de93c1f8a22daac02e7abe2edd0ef126ca7fe13b4608",
+      "embrulhos": [
+        {
+          "destino": "A",
+          "device_id": "c3a1e2f4-5b6d-4e7f-8a9b-0c1d2e3f4a5b",
+          "eph_sk": "f63242564ba1c521b54be3d96dd5940f22dc9529090e87ad230da1d9b0bd4b99",
+          "wrapped_key": "90047b3676984648a2b457c33549debfd23d337968beb7608edb798ca82190510872362d1afde89b8c2dea5b510746ecbf4cef6c4b0111e9adcec155f99b742edfca28a6acd21881c935f007b488ee8d"
+        },
+        {
+          "destino": "B",
+          "device_id": "1f2e3d4c-5b6a-4978-8695-a4b3c2d1e0f9",
+          "eph_sk": "e47e6a9211cd2e60ea15ff7aaee040ff08900aac542f3c8a1cbf858b67d678c0",
+          "wrapped_key": "cd1e66f0ca4eb3ad25d60e187d5e035df41327b809c86e3ac9495af58f88ca49af815261bbb7859e3df86a1f4ff8c6e656a5d031042e811467f433fbe8be021d0f5ca0e9514849b04770c3b044873106"
+        },
+        {
+          "destino": "C",
+          "device_id": "8e7d6c5b-4a39-4281-b7c6-d5e4f3a2b1c0",
+          "eph_sk": "349846ccec8222fed496a4cb39df53fbe85888b681dc34e8ad5d52428345079c",
+          "wrapped_key": "3581a28a1123528d39886fc9348c39eaaaf89d7ec8dd7b5714fadc4fb8ca316fa1ae61246c9d0225464a259a44c0c914a6ebdb336d3849b89fcc4c710933ab106e3a4eb4bad63d472ddedb65a75afe83"
+        },
+        {
+          "destino": "escrow",
+          "device_id": "",
+          "eph_sk": "2b90868f4749c1497929002aaf3b1893164ee4ac98107dd5964282da383bdca2",
+          "wrapped_key": "211ed72452faec6ca7124f874759a08c1fda86754978c5886d4d4f9b8c6a934cc5cbc87869a1a144dedc10d8421051d057bf37660145dcde4afcdc246542ba031d69b476f0f6477d98f96a7f8c9b0dfb"
+        }
+      ],
+      "meta": {
+        "meta_json": "{\"v\":1,\"salt\":\"BZcRKBwH4OSAwzQBWTNlDjYLIGrKaPqh36dIBqZm4go\",\"name\":\"Projeto Atlas\",\"description\":\"Equipe do projeto Atlas\"}",
+        "meta_commit": "b560a22a84e98082a02b60bbbf8c346ddb26f89ab03bb66cb9d314c26b3b648c",
+        "aad": "6469726563742f76312f67726f75702d6d65746100b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e00000001b560a22a84e98082a02b60bbbf8c346ddb26f89ab03bb66cb9d314c26b3b648c",
+        "nonce": "7f21a656ee669db174758be5a733b7f7334bd78850139c1d",
+        "ciphertext": "4d70a68e45feedc95864bbd32a8d101d239b32d7cf7c26686c1c4ea3e48a13c105bac1de9989a204346abdb1deb8b4154115234dc9b8fbcec30d94ba17efe5beb3160347b6df69625c0aa4d195fc1181fb6b6106e8ac2b5c802108510b9066f6b079a84aba7202044120888ac58846cda716692ccb0f2177e719200fe4af78704b54739dda825e4f9b5d0f86885c0a2461241ab851d3e0c278a62192c261567d8a5f3f641455e6c422ce79d5a5e5160349eff8eccd0a74b757093f7bb68f5e4085db34663269d8ce26be537b72d2e0d0017cf9081530b4e74f0d62d3fcd8b2c0db9cd078ab683485f9adf596d0bf2f06673432e5ec733a0625696a739406f58d6085ac41c4978bdfaf8b1bf4d9857dc3",
+        "json": {
+          "epoch": 1,
+          "meta_commit": "tWCiKoTpgIKgK2C7v4w0bdsm-JqwO7ZsudMUwms7ZIw",
+          "nonce": "fyGmVu5mnbF0dYvlpzO39zNL14hQE5wd",
+          "ciphertext": "TXCmjkX-7clYZLvTKo0QHSObMtfPfCZobBxOo-SKE8EFusHemYmiBDRqvbHeuLQVQRUjTcm4-87DDZS6F-_lvrMWA0e232liXAqk0ZX8EYH7a2EG6KwrXIAhCFELkGb2sHmoSrpyAgRBIIiKxYhGzacWaSzLDyF35xkgD-SveHBLVHOd2oJeT5tdD4aIXAokYSQauFHT4MJ4piGSwmFWfYpfP2QUVebEIs551aXlFgNJ7_jszQp0t1cJP3u2j15Ahds0ZjJp2M4mvlN7ctLg0AF8-QgVMLTnTw1i0_zYssDbnNB4q2g0hfmt9ZbQvy8GZzQy5exzOgYlaWpzlAb1jWCFrEHEl4vfr4sb9NmFfcM"
+        }
+      }
+    },
+    {
+      "epoch": 2,
+      "creator": "A",
+      "chain_n": 2,
+      "chain_hash": "01dbb31d72882ae275c101d7316143791ed588039503c5cc68b82744226e9340",
+      "chave_epoca": "f3da33c8e78f0b4427a1c368222b433d303c6cefffa0f0c2d8fd221d75b41084",
+      "key_commitment": "47a943659e42fe0a9865e0f55b03d312bebcf234574256a18c2e2021def49062",
+      "recipients_ordenados": [
+        "1f2e3d4c-5b6a-4978-8695-a4b3c2d1e0f9",
+        "8e7d6c5b-4a39-4281-b7c6-d5e4f3a2b1c0",
+        "9a8b7c6d-5e4f-4a3b-8c2d-1e0f9a8b7c6d",
+        "c3a1e2f4-5b6d-4e7f-8a9b-0c1d2e3f4a5b"
+      ],
+      "statement_bytes": "6469726563742f76312f67726f75702d65706f636800b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e00000002c3a1e2f45b6d4e7f8a9b0c1d2e3f4a5b47a943659e42fe0a9865e0f55b03d312bebcf234574256a18c2e2021def490621cbb1f94031d027ab6f729932aa9678c081287915fcc57962dd5f07d11bca737000000000000000201dbb31d72882ae275c101d7316143791ed588039503c5cc68b82744226e9340000000041f2e3d4c5b6a49788695a4b3c2d1e0f98e7d6c5b4a394281b7c6d5e4f3a2b1c09a8b7c6d5e4f4a3b8c2d1e0f9a8b7c6dc3a1e2f45b6d4e7f8a9b0c1d2e3f4a5b",
+      "statement_sig": "f92ee3bb289eef5f094681385d0a807780d7b054c2723d92debd75dec7cbb79b8e0f8b8578b9cfcefb4a141c59ce39b801fce4e705e42c906d9cc47375870708",
+      "embrulhos": [
+        {
+          "destino": "A",
+          "device_id": "c3a1e2f4-5b6d-4e7f-8a9b-0c1d2e3f4a5b",
+          "eph_sk": "5d26e4893d360f462c02c1c460f461e86322ee73ce1d7704828e272eb004c0e5",
+          "wrapped_key": "4187bca0a36ff460ee079b6c72ab5682f98e2f35fcc17d5a10a674773fa2912b4e664ad76f3f13ae351e20bff8fab9c7721d418d174d809f91005fcdf5cb1f3cf8355e4f7ee479e71f00236652317ea9"
+        },
+        {
+          "destino": "B",
+          "device_id": "1f2e3d4c-5b6a-4978-8695-a4b3c2d1e0f9",
+          "eph_sk": "d4686602c1224560a7199960843efd0d5a71481d45e6836fb4fbfbcbd2b312eb",
+          "wrapped_key": "a9309efe6ea3ef01343a678dff7cc383f0b4743433a06e9a9c62eb75d71b64271b04590dfca749452b1cdd64769b9643b90c8d2876c4ad0bc26d05ada5c6e785a01ed9e69e8913070dec451e469fc7f7"
+        },
+        {
+          "destino": "C",
+          "device_id": "8e7d6c5b-4a39-4281-b7c6-d5e4f3a2b1c0",
+          "eph_sk": "8dcff20afcd2a20af1fef24f3126033818b92fc3352847c3fd77a0cd207281b8",
+          "wrapped_key": "8794a6436d2b8c7d3977c6f4d235ef8ad95cc6f1d016fe27c0dfdc5586f9df4922ffa8659cccf54c8542b5cf4a81e90269c5366c59c36882b4c766399ab97648d6bda3ea58524f6136387a109ab225ab"
+        },
+        {
+          "destino": "D",
+          "device_id": "9a8b7c6d-5e4f-4a3b-8c2d-1e0f9a8b7c6d",
+          "eph_sk": "d4d031426029584348fc26e4daf6987d7d8801163f9311afd7d90541ce36b3d9",
+          "wrapped_key": "0335a542797a45153b16f73c1d64450853d0ef5a94c3ec7abbb965fbaf3a0328dbd452cf08390c3465f2128706c3d7c1b79291da9553d4952583ff871ea8b422ded642bcaf7599cef68acc164f28a1b5"
+        },
+        {
+          "destino": "escrow",
+          "device_id": "",
+          "eph_sk": "3b137e2c460ac193c962e79cc7d932aa58fd1a3e74e2048e323b20a63602c50e",
+          "wrapped_key": "4ef92063c9fbdaac4a4d3db2ebaabb7c8ed548fd1821bc5d310f946eb8427132532a54c1d3c367dc7463f7436fad0180802c069ec9d2f058643dc2fc1c49cf908edfdecbb0532e79a8d35fb613fcf9cf"
+        }
+      ],
+      "meta": {
+        "meta_json": "{\"v\":1,\"salt\":\"BZcRKBwH4OSAwzQBWTNlDjYLIGrKaPqh36dIBqZm4go\",\"name\":\"Projeto Atlas\",\"description\":\"Equipe do projeto Atlas\"}",
+        "meta_commit": "b560a22a84e98082a02b60bbbf8c346ddb26f89ab03bb66cb9d314c26b3b648c",
+        "aad": "6469726563742f76312f67726f75702d6d65746100b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e00000002b560a22a84e98082a02b60bbbf8c346ddb26f89ab03bb66cb9d314c26b3b648c",
+        "nonce": "e22242a895bf662be4cfb62f6b254695e06ef7acf1461ece",
+        "ciphertext": "7a745a6d0feebdd976ce371c8596eef793fd53e921091d49a2ff84a98bee59518c1087f7499bcbdac8a34849ebd64b0b6b952c14b6f153ba4d88cf0bd362d072e357a0f3a23235e2aa71a5683349dd43804a949df70e38741a8a7e2a2cd86d48fa02ef7aef95f8f2df10788c0006faa1b4d79aa2dffaff753685daec5905d6d9b3609d06cdbc740fb8ad03b40a2bfa6ebe8d08b2335e023c5590a18ee6ffbe12139dccbf35cab7b82349991b62e76e23c227b254616e3f0a2953a9c27039b5d90435256445decd9c137924fc0b71e72c2a1bbf4adb0b3c8baecc1c8c75f2dc7fd2c36fa99ccbf7ad7fdbdd291ed9702f167adc086b512800fbf1777addbd649f08f2899c84339fe78d5a55d714240924",
+        "json": {
+          "epoch": 2,
+          "meta_commit": "tWCiKoTpgIKgK2C7v4w0bdsm-JqwO7ZsudMUwms7ZIw",
+          "nonce": "4iJCqJW_Zivkz7YvayVGleBu96zxRh7O",
+          "ciphertext": "enRabQ_uvdl2zjcchZbu95P9U-khCR1Jov-EqYvuWVGMEIf3SZvL2sijSEnr1ksLa5UsFLbxU7pNiM8L02LQcuNXoPOiMjXiqnGlaDNJ3UOASpSd9w44dBqKfios2G1I-gLveu-V-PLfEHiMAAb6obTXmqLf-v91NoXa7FkF1tmzYJ0Gzbx0D7itA7QKK_puvo0IsjNeAjxVkKGO5v--EhOdzL81yre4I0mZG2LnbiPCJ7JUYW4_CilTqcJwObXZBDUlZEXezZwTeST8C3HnLCobv0rbCzyLrswcjHXy3H_Sw2-pnMv3rX_b3Ske2XAvFnrcCGtRKAD78Xd63b1knwjyiZyEM5_njVpV1xQkCSQ"
+        }
+      }
+    }
+  ],
+  "historico_liberado": {
+    "add_n": 2,
+    "epoch": 1,
+    "device_id": "9a8b7c6d-5e4f-4a3b-8c2d-1e0f9a8b7c6d",
+    "eph_sk": "d84907215ec3e09e0e42390dba758228aafc0b40ecbd650e34edefbb3cc911d7",
+    "wrapped_key": "0935c209614761f890c6376b793c7a853b7eca58ee52f2aa39cc46c3226ac334578238cb4a96f7fe0b37b2049186f07593caadfcdd542b94fff0a17910af6980bb5154fcbe07693f6a5bdaa0815ddb2b",
+    "json": {
+      "add_n": 2,
+      "items": [
+        {
+          "epoch": 1,
+          "device_id": "9a8b7c6d-5e4f-4a3b-8c2d-1e0f9a8b7c6d",
+          "wrapped_key": "CTXCCWFHYfiQxjdreTx6hTt-yljuUvKqOcxGwyJqwzRXgjjLSpb3_gs3sgSRhvB1k8qt_N1UK5T_8KF5EK9pgLtRVPy-B2k_alvaoIFd2ys"
+        }
+      ]
+    }
+  },
+  "deve_falhar": [
+    {
+      "caso": "chain_hash_errado",
+      "descricao": "chain_hash não é o hash do registro 2",
+      "chain_n": 2,
+      "chain_hash": "00dbb31d72882ae275c101d7316143791ed588039503c5cc68b82744226e9340",
+      "creator_user_id": "7d0c9b8a-1e2f-4a3b-9c4d-5e6f7a8b9c0d",
+      "recipient_owners": [
+        "7d0c9b8a-1e2f-4a3b-9c4d-5e6f7a8b9c0d",
+        "2b4d6f81-3a5c-4e7a-9b1d-3f5a7c9e1b2d",
+        "2b4d6f81-3a5c-4e7a-9b1d-3f5a7c9e1b2d",
+        "5c6d7e8f-9a0b-4c1d-8e2f-3a4b5c6d7e8f"
+      ],
+      "codigo": "cadeia"
+    },
+    {
+      "caso": "chain_n_futuro",
+      "descricao": "chain_n = 3 numa cadeia com 2 registros",
+      "chain_n": 3,
+      "chain_hash": "01dbb31d72882ae275c101d7316143791ed588039503c5cc68b82744226e9340",
+      "creator_user_id": "7d0c9b8a-1e2f-4a3b-9c4d-5e6f7a8b9c0d",
+      "recipient_owners": [
+        "7d0c9b8a-1e2f-4a3b-9c4d-5e6f7a8b9c0d",
+        "2b4d6f81-3a5c-4e7a-9b1d-3f5a7c9e1b2d",
+        "2b4d6f81-3a5c-4e7a-9b1d-3f5a7c9e1b2d",
+        "5c6d7e8f-9a0b-4c1d-8e2f-3a4b5c6d7e8f"
+      ],
+      "codigo": "cadeia"
+    },
+    {
+      "caso": "criador_nao_membro",
+      "descricao": "Marcos cria época na posição 1, antes de entrar",
+      "chain_n": 1,
+      "chain_hash": "40cc395985488164d9e17e57198f6eeb36eff0cbfef76d34919a603fa81e172c",
+      "creator_user_id": "5c6d7e8f-9a0b-4c1d-8e2f-3a4b5c6d7e8f",
+      "recipient_owners": [
+        "7d0c9b8a-1e2f-4a3b-9c4d-5e6f7a8b9c0d",
+        "2b4d6f81-3a5c-4e7a-9b1d-3f5a7c9e1b2d",
+        "2b4d6f81-3a5c-4e7a-9b1d-3f5a7c9e1b2d",
+        "5c6d7e8f-9a0b-4c1d-8e2f-3a4b5c6d7e8f"
+      ],
+      "codigo": "papel"
+    },
+    {
+      "caso": "destinatario_nao_membro",
+      "descricao": "época na posição 2 com o aparelho E, de Paula, que não é membro",
+      "chain_n": 2,
+      "chain_hash": "01dbb31d72882ae275c101d7316143791ed588039503c5cc68b82744226e9340",
+      "creator_user_id": "7d0c9b8a-1e2f-4a3b-9c4d-5e6f7a8b9c0d",
+      "recipient_owners": [
+        "7d0c9b8a-1e2f-4a3b-9c4d-5e6f7a8b9c0d",
+        "2b4d6f81-3a5c-4e7a-9b1d-3f5a7c9e1b2d",
+        "2b4d6f81-3a5c-4e7a-9b1d-3f5a7c9e1b2d",
+        "5c6d7e8f-9a0b-4c1d-8e2f-3a4b5c6d7e8f",
+        "d1e2f3a4-b5c6-4d7e-8f90-a1b2c3d4e5f6"
+      ],
+      "codigo": "alvo"
+    }
+  ]
+}

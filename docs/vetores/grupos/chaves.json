@@ -1,0 +1,92 @@
+{
+  "descricao": "Chaves dos vetores de grupo. A, B (João) e C (João, aparelho novo) vêm de ../chaves.json e ../cadastro.json; D (Marcos) e E (Paula) são novos, com certificado assinado pela chave do servidor de ../chaves.json.",
+  "moderador": {
+    "sign_seed": "da33d22682f90af8e2c5b4102cb0308c49aaded782d6b1fc70d759026cf91c30",
+    "sign_pub": "296cf88ae5bf6d8320dda4a915ac969ac5c6353a06a726adf5f050b9c6b7a1f1",
+    "sign_pub_b64u": "KWz4iuW_bYMg3aSpFayWmsXGNToGpyat9fBQuca3ofE"
+  },
+  "aparelhos_novos": [
+    {
+      "nome": "D",
+      "device_id": "9a8b7c6d-5e4f-4a3b-8c2d-1e0f9a8b7c6d",
+      "user_id": "5c6d7e8f-9a0b-4c1d-8e2f-3a4b5c6d7e8f",
+      "admin_label": "Marcos Lima - TI",
+      "sign_seed": "c6b98933814901e2ecb233b05c0aec49937a40d61550a45cb21c95aa45a7fed8",
+      "sign_pub": "b47347a926017aaa0043b9a1318faf6c0a1e1f2eee87ecbdff4c90e2aab03308",
+      "kex_sk": "b077468d8eaf27e937252cb84e0ce994c3e311411c0309fb91c033027dc3b89e",
+      "kex_pub": "b1ca4f26272abd15c814ef428d9a1428de4ceb2ededb2992c1e920a07c632720",
+      "cert_bytes": "6469726563742f76312f6465766963652d63657274009a8b7c6d5e4f4a3b8c2d1e0f9a8b7c6d5c6d7e8f9a0b4c1d8e2f3a4b5c6d7e8fb47347a926017aaa0043b9a1318faf6c0a1e1f2eee87ecbdff4c90e2aab03308b1ca4f26272abd15c814ef428d9a1428de4ceb2ededb2992c1e920a07c632720000001a2a126bc00000001a6401f6c00000000104d6172636f73204c696d61202d205449",
+      "cert": {
+        "device_id": "9a8b7c6d-5e4f-4a3b-8c2d-1e0f9a8b7c6d",
+        "user_id": "5c6d7e8f-9a0b-4c1d-8e2f-3a4b5c6d7e8f",
+        "admin_label": "Marcos Lima - TI",
+        "sign_pub": "tHNHqSYBeqoAQ7mhMY-vbAoeHy7uh-y9_0yQ4qqwMwg",
+        "kex_pub": "scpPJicqvRXIFO9CjZoUKN5M6y7e2ymSwekgoHxjJyA",
+        "enrolled_at": 1798000000000,
+        "expires_at": 1813552000000,
+        "sig": "_YZGNuqM3FqNhj1wD0wAucuAL6ni6UfUFG0cqzEdCb2W-iO8nxPcBkvIhv47DaJ7_W9Oy9Bn5NUBz23h_Yt6CA"
+      }
+    },
+    {
+      "nome": "E",
+      "device_id": "6f5e4d3c-2b1a-4098-a7b6-c5d4e3f2a1b0",
+      "user_id": "d1e2f3a4-b5c6-4d7e-8f90-a1b2c3d4e5f6",
+      "admin_label": "Paula Reis - RH",
+      "sign_seed": "0b71f6485703533b6cb8c24a1e927b868f439416ee9f4540c40b018c039b63dd",
+      "sign_pub": "c27e7e4977f9d52081eb4a1d6335130b127c7f14f542ddc4d8fe814075dd83e6",
+      "kex_sk": "7a4ad08aa4ce1de1f115db09bd605171611f67f2d3c719789298db2a94288bd3",
+      "kex_pub": "98934d0f2317850c4348b7fc18c7b0c5f0bd57ee2d9815c14d3d240ba9504014",
+      "cert_bytes": "6469726563742f76312f6465766963652d63657274006f5e4d3c2b1a4098a7b6c5d4e3f2a1b0d1e2f3a4b5c64d7e8f90a1b2c3d4e5f6c27e7e4977f9d52081eb4a1d6335130b127c7f14f542ddc4d8fe814075dd83e698934d0f2317850c4348b7fc18c7b0c5f0bd57ee2d9815c14d3d240ba9504014000001a2a126bc00000001a6401f6c000000000f5061756c612052656973202d205248",
+      "cert": {
+        "device_id": "6f5e4d3c-2b1a-4098-a7b6-c5d4e3f2a1b0",
+        "user_id": "d1e2f3a4-b5c6-4d7e-8f90-a1b2c3d4e5f6",
+        "admin_label": "Paula Reis - RH",
+        "sign_pub": "wn5-SXf51SCB60odYzUTCxJ8fxT1Qt3E2P6BQHXdg-Y",
+        "kex_pub": "mJNNDyMXhQxDSLf8GMewxfC9V-4tmBXBTT0kC6lQQBQ",
+        "enrolled_at": 1798000000000,
+        "expires_at": 1813552000000,
+        "sig": "WGppjGDZhIv03z9RvQnPRkC_wjsRQpiRdmAD-Ny7Q65_GhV1XN3GzpuTwjI_zgEa-1dL_HHLqkq-Tqz9WLv7BA"
+      }
+    }
+  ],
+  "usuarios": {
+    "ana": "7d0c9b8a-1e2f-4a3b-9c4d-5e6f7a8b9c0d",
+    "joao": "2b4d6f81-3a5c-4e7a-9b1d-3f5a7c9e1b2d",
+    "marcos": "5c6d7e8f-9a0b-4c1d-8e2f-3a4b5c6d7e8f",
+    "paula": "d1e2f3a4-b5c6-4d7e-8f90-a1b2c3d4e5f6"
+  },
+  "qr": {
+    "host": "direct.exemplo.com.br",
+    "invite_seed": "6a93d48e09d29521e2d457a3691d6c0fe6b712ba84ab1a16f7070cf420a81f9d",
+    "qr_uri_v2": "direct://enroll?v=2&h=direct.exemplo.com.br&t=apPUjgnSlSHi1FejaR1sD-a3ErqEqxoW9wcM9CCoH50&s=RL7f1bcoEzuiMVmKQDxUnBUBCw6U79-hVweiCVmV92Q&e=HLsflAMdAnq29ymTKqlnjAgSh5FfzFeWLdXwfRG8pzc&m=KWz4iuW_bYMg3aSpFayWmsXGNToGpyat9fBQuca3ofE",
+    "pin_uri": "direct://pin?v=1&h=direct.exemplo.com.br&s=RL7f1bcoEzuiMVmKQDxUnBUBCw6U79-hVweiCVmV92Q&e=HLsflAMdAnq29ymTKqlnjAgSh5FfzFeWLdXwfRG8pzc&m=KWz4iuW_bYMg3aSpFayWmsXGNToGpyat9fBQuca3ofE",
+    "codigo_verificacao_m": "57913 13202 40840 81329",
+    "codigo_verificacao_v1": "65455 96422 51481 29850",
+    "qr_invalidos": [
+      {
+        "caso": "v2_sem_m",
+        "uri": "direct://enroll?v=2&h=direct.exemplo.com.br&t=apPUjgnSlSHi1FejaR1sD-a3ErqEqxoW9wcM9CCoH50&s=RL7f1bcoEzuiMVmKQDxUnBUBCw6U79-hVweiCVmV92Q&e=HLsflAMdAnq29ymTKqlnjAgSh5FfzFeWLdXwfRG8pzc"
+      },
+      {
+        "caso": "v1_com_m",
+        "uri": "direct://enroll?v=1&h=direct.exemplo.com.br&t=apPUjgnSlSHi1FejaR1sD-a3ErqEqxoW9wcM9CCoH50&s=RL7f1bcoEzuiMVmKQDxUnBUBCw6U79-hVweiCVmV92Q&e=HLsflAMdAnq29ymTKqlnjAgSh5FfzFeWLdXwfRG8pzc&m=KWz4iuW_bYMg3aSpFayWmsXGNToGpyat9fBQuca3ofE"
+      },
+      {
+        "caso": "m_tamanho_errado",
+        "uri": "direct://enroll?v=2&h=direct.exemplo.com.br&t=apPUjgnSlSHi1FejaR1sD-a3ErqEqxoW9wcM9CCoH50&s=RL7f1bcoEzuiMVmKQDxUnBUBCw6U79-hVweiCVmV92Q&e=HLsflAMdAnq29ymTKqlnjAgSh5FfzFeWLdXwfRG8pzc&m=KWz4iuW_bYMg3aSpFayWmsXGNToGpyat9fBQuca3oQ"
+      },
+      {
+        "caso": "pin_com_t",
+        "uri": "direct://pin?v=1&h=direct.exemplo.com.br&s=RL7f1bcoEzuiMVmKQDxUnBUBCw6U79-hVweiCVmV92Q&e=HLsflAMdAnq29ymTKqlnjAgSh5FfzFeWLdXwfRG8pzc&m=KWz4iuW_bYMg3aSpFayWmsXGNToGpyat9fBQuca3ofE&t=apPUjgnSlSHi1FejaR1sD-a3ErqEqxoW9wcM9CCoH50"
+      },
+      {
+        "caso": "pin_servidor_diferente_do_fixado",
+        "uri": "direct://pin?v=1&h=direct.exemplo.com.br&s=LgSgZyLPvpU-jRUBfBkObJp2K37QiKf41ND4I5KPbLo&e=HLsflAMdAnq29ymTKqlnjAgSh5FfzFeWLdXwfRG8pzc&m=KWz4iuW_bYMg3aSpFayWmsXGNToGpyat9fBQuca3ofE"
+      },
+      {
+        "caso": "pin_host_diferente_do_fixado",
+        "uri": "direct://pin?v=1&h=outro.exemplo.com.br&s=RL7f1bcoEzuiMVmKQDxUnBUBCw6U79-hVweiCVmV92Q&e=HLsflAMdAnq29ymTKqlnjAgSh5FfzFeWLdXwfRG8pzc&m=KWz4iuW_bYMg3aSpFayWmsXGNToGpyat9fBQuca3ofE"
+      }
+    ]
+  }
+}

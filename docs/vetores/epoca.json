@@ -1,0 +1,38 @@
+{
+  "conversation_id": "a0b1c2d3-e4f5-4a6b-8c7d-9e0f1a2b3c4d",
+  "epoch": 1,
+  "criador": "A",
+  "chave_epoca": "35297f5c97c10e1469caf5b7d1c5d55145a8f89ec270f737cbe60af04eef47ab",
+  "key_commitment_entrada": "6469726563742f76312f65706f63682d6b657900a0b1c2d3e4f54a6b8c7d9e0f1a2b3c4d0000000135297f5c97c10e1469caf5b7d1c5d55145a8f89ec270f737cbe60af04eef47ab",
+  "key_commitment": "0688350fba1e334f2433184778bf8612a8df8ec218ef2bb3bdacc3c539656488",
+  "recipients_ordenados": [
+    "1f2e3d4c-5b6a-4978-8695-a4b3c2d1e0f9",
+    "c3a1e2f4-5b6d-4e7f-8a9b-0c1d2e3f4a5b"
+  ],
+  "statement_bytes": "6469726563742f76312f65706f636800a0b1c2d3e4f54a6b8c7d9e0f1a2b3c4d00000001c3a1e2f45b6d4e7f8a9b0c1d2e3f4a5b0688350fba1e334f2433184778bf8612a8df8ec218ef2bb3bdacc3c5396564881cbb1f94031d027ab6f729932aa9678c081287915fcc57962dd5f07d11bca737000000021f2e3d4c5b6a49788695a4b3c2d1e0f9c3a1e2f45b6d4e7f8a9b0c1d2e3f4a5b",
+  "statement_sig": "36a3fd467335b23453067b69c1351cda609bbfaec0a89cb4d04b9cfa3a3be466cef3efc1bfdf006dbdee5b247aa8dd7789a4d35e07683b060a475e63fcfa5e00",
+  "embrulhos": [
+    {
+      "destino": "A",
+      "device_id": "c3a1e2f4-5b6d-4e7f-8a9b-0c1d2e3f4a5b",
+      "eph_sk": "370a89d8a39e044000210f44346ce0096dac759f826b875a812107643037d0fc",
+      "eph_pub": "91ffd3e6d21b1ce42d222d34e50115b4ad01ec19da9880506ea909f6d63af430",
+      "wrapped_key": "91ffd3e6d21b1ce42d222d34e50115b4ad01ec19da9880506ea909f6d63af430e633fe3a0247f357805c80182f833a6ddff1579596e7c41fa5ddb9798afc422f7be52fa743f2e5663dc0aeb0791d5119"
+    },
+    {
+      "destino": "B",
+      "device_id": "1f2e3d4c-5b6a-4978-8695-a4b3c2d1e0f9",
+      "eph_sk": "8e11161a17ec7819d10f304e96cfac9849d07209dded338f1078ec17ae88817b",
+      "eph_pub": "b291f7918cf5e9ef4092aac9588834699dd720fc6b864d73ca1a0aa7ea134d56",
+      "wrapped_key": "b291f7918cf5e9ef4092aac9588834699dd720fc6b864d73ca1a0aa7ea134d56e29ccd53298fce85107b0eaadda52b0c981f9b7f86e5725fe2704e6acf14d1f9d36a0a8a1df684634bbd5d6004299674"
+    },
+    {
+      "destino": "escrow",
+      "device_id": "",
+      "eph_sk": "46e67d8bd1f36cc287f500e3e71f497b4d38422cabbfae99161c7bd63dd617ac",
+      "eph_pub": "aba428f1bece831c9cf80b80400d098cec5eb94100922b79c1bad1adb6812360",
+      "wrapped_key": "aba428f1bece831c9cf80b80400d098cec5eb94100922b79c1bad1adb6812360aab0972cc448526e2a797c87a2d07af603fa6adc7ecdfbf7e19d7d7b3870f976b8583287342bb6207acf84c5eefe0a3c"
+    }
+  ],
+  "nota_selagem": "Selagem com chave efêmera fixa só existe no gerador (Go). Em Dart/libsodium o teste é abrir wrapped_key com kex_sk e obter chave_epoca; e reconstruir eph_pub||crypto_box_easy(chave, nonce=BLAKE2b-192(eph_pub||pub_destino), pub_destino, eph_sk) se a API permitir."
+}

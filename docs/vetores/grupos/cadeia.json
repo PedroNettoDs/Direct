@@ -1,0 +1,782 @@
+{
+  "descricao": "Cadeia de mudanças assinada (protocolo-grupos §2). Grupo comum criado por Ana com todos os tipos de registro; grupo oficial criado pelo moderador; casos que devem falhar. Verificar com as chaves de ../chaves.json, ./chaves.json e os certificados de ../cadastro.json e ./chaves.json.",
+  "grupo_comum": {
+    "conversation_id": "b7c8d9e0-f1a2-4b3c-8d4e-5f6a7b8c9d0e",
+    "meta_json_1": "{\"v\":1,\"salt\":\"BZcRKBwH4OSAwzQBWTNlDjYLIGrKaPqh36dIBqZm4go\",\"name\":\"Projeto Atlas\",\"description\":\"Equipe do projeto Atlas\"}",
+    "meta_json_2": "{\"v\":1,\"salt\":\"sTKPzLpBchR2YH115ehgT04vohbruHM45NqmMZGW9-8\",\"name\":\"Atlas - fase 2\",\"description\":\"\"}",
+    "registros": [
+      {
+        "n": 1,
+        "tipo": "criar",
+        "kind": 1,
+        "autor": "A",
+        "created_at": 1798100000000,
+        "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "body": "00000000b560a22a84e98082a02b60bbbf8c346ddb26f89ab03bb66cb9d314c26b3b648c000000022b4d6f813a5c4e7a9b1d3f5a7c9e1b2d000000017d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d00000002",
+        "change_bytes": "6469726563742f76312f67726f75702d6368616e676500b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e000000000000000100000000000000000000000000000000000000000000000000000000000000000000000100000001c3a1e2f45b6d4e7f8a9b0c1d2e3f4a5b7d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d000001a2a71c9d000000005000000000b560a22a84e98082a02b60bbbf8c346ddb26f89ab03bb66cb9d314c26b3b648c000000022b4d6f813a5c4e7a9b1d3f5a7c9e1b2d000000017d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d00000002",
+        "signature": "ceff4e8c34105461b74c641f727faa7533167770f99c23d564ec0f2762ffcf43b01995f0375136e30ea19e37603a5aa0555858caa9d7df68bde7f2e728211208",
+        "record_hash": "40cc395985488164d9e17e57198f6eeb36eff0cbfef76d34919a603fa81e172c",
+        "json": {
+          "n": 1,
+          "change_bytes": "ZGlyZWN0L3YxL2dyb3VwLWNoYW5nZQC3yNng8aJLPI1OX2p7jJ0OAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABw6Hi9FttTn-KmwwdLj9KW30Mm4oeL0o7nE1eb3qLnA0AAAGipxydAAAAAFAAAAAAtWCiKoTpgIKgK2C7v4w0bdsm-JqwO7ZsudMUwms7ZIwAAAACK01vgTpcTnqbHT9afJ4bLQAAAAF9DJuKHi9KO5xNXm96i5wNAAAAAg",
+          "signature": "zv9OjDQQVGG3TGQfcn-qdTMWd3D5nCPVZOwPJ2L_z0OwGZXwN1E24w6hnjdgOlqgVVhYyqnX32i95_LnKCESCA"
+        }
+      },
+      {
+        "n": 2,
+        "tipo": "adicionar",
+        "kind": 2,
+        "autor": "A",
+        "created_at": 1798100060000,
+        "prev_hash": "40cc395985488164d9e17e57198f6eeb36eff0cbfef76d34919a603fa81e172c",
+        "body": "00000001000000015c6d7e8f9a0b4c1d8e2f3a4b5c6d7e8f",
+        "change_bytes": "6469726563742f76312f67726f75702d6368616e676500b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e000000000000000240cc395985488164d9e17e57198f6eeb36eff0cbfef76d34919a603fa81e172c0000000200000001c3a1e2f45b6d4e7f8a9b0c1d2e3f4a5b7d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d000001a2a71d87600000001800000001000000015c6d7e8f9a0b4c1d8e2f3a4b5c6d7e8f",
+        "signature": "2b77bf069356a42fa8a0b06f20ecbb2b22ca430c0bd446c85fca37cb623fa49d67212422daca91be3248589bb39d5d6c1e87dcd4a92eb38290d2bbc370c47505",
+        "record_hash": "01dbb31d72882ae275c101d7316143791ed588039503c5cc68b82744226e9340",
+        "json": {
+          "n": 2,
+          "change_bytes": "ZGlyZWN0L3YxL2dyb3VwLWNoYW5nZQC3yNng8aJLPI1OX2p7jJ0OAAAAAAAAAAJAzDlZhUiBZNnhflcZj27rNu_wy_73bTSRmmA_qB4XLAAAAAIAAAABw6Hi9FttTn-KmwwdLj9KW30Mm4oeL0o7nE1eb3qLnA0AAAGipx2HYAAAABgAAAABAAAAAVxtfo-aC0wdji86S1xtfo8",
+          "signature": "K3e_BpNWpC-ooLBvIOy7KyLKQwwL1EbIX8o3y2I_pJ1nISQi2sqRvjJIWJuznV1sHofc1Kkus4KQ0rvDcMR1BQ"
+        }
+      },
+      {
+        "n": 3,
+        "tipo": "promover",
+        "kind": 4,
+        "autor": "A",
+        "created_at": 1798100120000,
+        "prev_hash": "01dbb31d72882ae275c101d7316143791ed588039503c5cc68b82744226e9340",
+        "body": "000000012b4d6f813a5c4e7a9b1d3f5a7c9e1b2d",
+        "change_bytes": "6469726563742f76312f67726f75702d6368616e676500b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e000000000000000301dbb31d72882ae275c101d7316143791ed588039503c5cc68b82744226e93400000000400000001c3a1e2f45b6d4e7f8a9b0c1d2e3f4a5b7d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d000001a2a71e71c000000014000000012b4d6f813a5c4e7a9b1d3f5a7c9e1b2d",
+        "signature": "2885be77592e06425416338c3adc9580d3c075658a8270bded9163c9783f244d300186388958353f4c437be17ed4f3830f4f067d4257d14b1055e79e40915a01",
+        "record_hash": "ed204376a03a2154f3ec0fdda6b732688b319ee5f3455e7ba51d781706afa279",
+        "json": {
+          "n": 3,
+          "change_bytes": "ZGlyZWN0L3YxL2dyb3VwLWNoYW5nZQC3yNng8aJLPI1OX2p7jJ0OAAAAAAAAAAMB27Mdcogq4nXBAdcxYUN5HtWIA5UDxcxouCdEIm6TQAAAAAQAAAABw6Hi9FttTn-KmwwdLj9KW30Mm4oeL0o7nE1eb3qLnA0AAAGipx5xwAAAABQAAAABK01vgTpcTnqbHT9afJ4bLQ",
+          "signature": "KIW-d1kuBkJUFjOMOtyVgNPAdWWKgnC97ZFjyXg_JE0wAYY4iVg1P0xDe-F-1PODD08GfUJX0UsQVeeeQJFaAQ"
+        }
+      },
+      {
+        "n": 4,
+        "tipo": "renomear",
+        "kind": 6,
+        "autor": "C",
+        "created_at": 1798100180000,
+        "prev_hash": "ed204376a03a2154f3ec0fdda6b732688b319ee5f3455e7ba51d781706afa279",
+        "body": "349edacdd455bee41b5ec1a15cae0c207e2e4fe96d1e7fee796b48d233747a85",
+        "change_bytes": "6469726563742f76312f67726f75702d6368616e676500b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e0000000000000004ed204376a03a2154f3ec0fdda6b732688b319ee5f3455e7ba51d781706afa27900000006000000018e7d6c5b4a394281b7c6d5e4f3a2b1c02b4d6f813a5c4e7a9b1d3f5a7c9e1b2d000001a2a71f5c2000000020349edacdd455bee41b5ec1a15cae0c207e2e4fe96d1e7fee796b48d233747a85",
+        "signature": "5fe52e503ef8b6b8e1541a50fa2330eaa39ffb4bd84dceb348c1a0ed08c3dff3e32d9842934e868aa2d910120f6ac3066483ca7a82c61de1af37b9258c8a4307",
+        "record_hash": "a7793ecc5a22e11b397c3e2edb589c25362cfee562eea0bbe9c0b3e81c63ea55",
+        "json": {
+          "n": 4,
+          "change_bytes": "ZGlyZWN0L3YxL2dyb3VwLWNoYW5nZQC3yNng8aJLPI1OX2p7jJ0OAAAAAAAAAATtIEN2oDohVPPsD92mtzJoizGe5fNFXnulHXgXBq-ieQAAAAYAAAABjn1sW0o5QoG3xtXk86KxwCtNb4E6XE56mx0_WnyeGy0AAAGipx9cIAAAACA0ntrN1FW-5BtewaFcrgwgfi5P6W0ef-55a0jSM3R6hQ",
+          "signature": "X-UuUD74trjhVBpQ-iMw6qOf-0vYTc6zSMGg7QjD3_PjLZhCk06GiqLZEBIPasMGZIPKeoLGHeGvN7kljIpDBw"
+        }
+      },
+      {
+        "n": 5,
+        "tipo": "remover",
+        "kind": 3,
+        "autor": "moderador",
+        "created_at": 1798100240000,
+        "prev_hash": "a7793ecc5a22e11b397c3e2edb589c25362cfee562eea0bbe9c0b3e81c63ea55",
+        "body": "000000015c6d7e8f9a0b4c1d8e2f3a4b5c6d7e8f",
+        "change_bytes": "6469726563742f76312f67726f75702d6368616e676500b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e0000000000000005a7793ecc5a22e11b397c3e2edb589c25362cfee562eea0bbe9c0b3e81c63ea5500000003000000020000000000000000000000000000000000000000000000000000000000000000000001a2a720468000000014000000015c6d7e8f9a0b4c1d8e2f3a4b5c6d7e8f",
+        "signature": "24a788f25be6445d87f02ff7cda1222cf431e831a1a7fba621cdc967ea725f771c642f0fdc94246c1d206215ef563efaf3e6c91528514172ba27d16ddef32106",
+        "record_hash": "b3acccd8a53001064d6d2dda1cefecb2a92c0c69279008ff5efdf55b7a7327ca",
+        "json": {
+          "n": 5,
+          "change_bytes": "ZGlyZWN0L3YxL2dyb3VwLWNoYW5nZQC3yNng8aJLPI1OX2p7jJ0OAAAAAAAAAAWneT7MWiLhGzl8Pi7bWJwlNiz-5WLuoLvpwLPoHGPqVQAAAAMAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGipyBGgAAAABQAAAABXG1-j5oLTB2OLzpLXG1-jw",
+          "signature": "JKeI8lvmRF2H8C_3zaEiLPQx6DGhp_umIc3JZ-pyX3ccZC8P3JQkbB0gYhXvVj768-bJFShRQXK6J9Ft3vMhBg"
+        }
+      },
+      {
+        "n": 6,
+        "tipo": "adicionar",
+        "kind": 2,
+        "autor": "B",
+        "created_at": 1798100300000,
+        "prev_hash": "b3acccd8a53001064d6d2dda1cefecb2a92c0c69279008ff5efdf55b7a7327ca",
+        "body": "0000000000000001d1e2f3a4b5c64d7e8f90a1b2c3d4e5f6",
+        "change_bytes": "6469726563742f76312f67726f75702d6368616e676500b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e0000000000000006b3acccd8a53001064d6d2dda1cefecb2a92c0c69279008ff5efdf55b7a7327ca00000002000000011f2e3d4c5b6a49788695a4b3c2d1e0f92b4d6f813a5c4e7a9b1d3f5a7c9e1b2d000001a2a72130e0000000180000000000000001d1e2f3a4b5c64d7e8f90a1b2c3d4e5f6",
+        "signature": "4426d754b3312010fa592f798db66aa3bc7ace958f93f2322b35b7cb784d8ccf4838745f44892c8182a03e5b3ae6fd2787f7c6c9ce7fa9b0671e904888cba304",
+        "record_hash": "ae79be4f31672860f38761045e5a0c3dd5796f654e0b3cb2b801d1ffc4af7ed5",
+        "json": {
+          "n": 6,
+          "change_bytes": "ZGlyZWN0L3YxL2dyb3VwLWNoYW5nZQC3yNng8aJLPI1OX2p7jJ0OAAAAAAAAAAazrMzYpTABBk1tLdoc7-yyqSwMaSeQCP9e_fVbenMnygAAAAIAAAABHy49TFtqSXiGlaSzwtHg-StNb4E6XE56mx0_WnyeGy0AAAGipyEw4AAAABgAAAAAAAAAAdHi86S1xk1-j5ChssPU5fY",
+          "signature": "RCbXVLMxIBD6WS95jbZqo7x6zpWPk_IyKzW3y3hNjM9IOHRfRIksgYKgPls65v0nh_fGyc5_qbBnHpBIiMujBA"
+        }
+      },
+      {
+        "n": 7,
+        "tipo": "sair",
+        "kind": 5,
+        "autor": "A",
+        "created_at": 1798100360000,
+        "prev_hash": "ae79be4f31672860f38761045e5a0c3dd5796f654e0b3cb2b801d1ffc4af7ed5",
+        "body": "",
+        "change_bytes": "6469726563742f76312f67726f75702d6368616e676500b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e0000000000000007ae79be4f31672860f38761045e5a0c3dd5796f654e0b3cb2b801d1ffc4af7ed50000000500000001c3a1e2f45b6d4e7f8a9b0c1d2e3f4a5b7d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d000001a2a7221b4000000000",
+        "signature": "7987a1cb842281700c0a3bf55ad0ee9265a7083c1f3e66c5e1f8045b4adba513e16eab2f3db5379c2ea7d47d1d31272914aea17b752d43ba3013bf46a92a0a0e",
+        "record_hash": "5f9b1e3a1d6680ad56eb9908ce720ca8c770d125d7e4cf2a1dede6f1e6a7bedb",
+        "json": {
+          "n": 7,
+          "change_bytes": "ZGlyZWN0L3YxL2dyb3VwLWNoYW5nZQC3yNng8aJLPI1OX2p7jJ0OAAAAAAAAAAeueb5PMWcoYPOHYQReWgw91XlvZU4LPLK4AdH_xK9-1QAAAAUAAAABw6Hi9FttTn-KmwwdLj9KW30Mm4oeL0o7nE1eb3qLnA0AAAGipyIbQAAAAAA",
+          "signature": "eYehy4QigXAMCjv1WtDukmWnCDwfPmbF4fgEW0rbpRPhbqsvPbU3nC6n1H0dMScpFK6he3UtQ7owE79GqSoKDg"
+        }
+      },
+      {
+        "n": 8,
+        "tipo": "encerrar",
+        "kind": 7,
+        "autor": "B",
+        "created_at": 1798100420000,
+        "prev_hash": "5f9b1e3a1d6680ad56eb9908ce720ca8c770d125d7e4cf2a1dede6f1e6a7bedb",
+        "body": "",
+        "change_bytes": "6469726563742f76312f67726f75702d6368616e676500b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e00000000000000085f9b1e3a1d6680ad56eb9908ce720ca8c770d125d7e4cf2a1dede6f1e6a7bedb00000007000000011f2e3d4c5b6a49788695a4b3c2d1e0f92b4d6f813a5c4e7a9b1d3f5a7c9e1b2d000001a2a72305a000000000",
+        "signature": "c2f583dc6e4fc1ae72c781567d995f18af4b6da04399c93f0a773cee55ccd3bf86aeff444a1a540f2eb2e4aa53124560dbf04bf4507d90ff9a8ddb03de2c470e",
+        "record_hash": "1dd6ff539d1e7063c3e7c3bc64d4b9f07ecef642b86d29c15394ea8e78ab9d94",
+        "json": {
+          "n": 8,
+          "change_bytes": "ZGlyZWN0L3YxL2dyb3VwLWNoYW5nZQC3yNng8aJLPI1OX2p7jJ0OAAAAAAAAAAhfmx46HWaArVbrmQjOcgyox3DRJdfkzyod7ebx5qe-2wAAAAcAAAABHy49TFtqSXiGlaSzwtHg-StNb4E6XE56mx0_WnyeGy0AAAGipyMFoAAAAAA",
+          "signature": "wvWD3G5Pwa5yx4FWfZlfGK9LbaBDmck_Cnc87lXM07-Grv9EShpUDy6y5KpTEkVg2_BL9FB9kP-ajdsD3ixHDg"
+        }
+      }
+    ],
+    "estado_depois_de_cada_registro": [
+      {
+        "n": 1,
+        "head": "40cc395985488164d9e17e57198f6eeb36eff0cbfef76d34919a603fa81e172c",
+        "membros": [
+          {
+            "user_id": "2b4d6f81-3a5c-4e7a-9b1d-3f5a7c9e1b2d",
+            "role": "membro"
+          },
+          {
+            "user_id": "7d0c9b8a-1e2f-4a3b-9c4d-5e6f7a8b9c0d",
+            "role": "admin"
+          }
+        ],
+        "encerrado_em": 0,
+        "admin_label": "",
+        "meta_commit": "b560a22a84e98082a02b60bbbf8c346ddb26f89ab03bb66cb9d314c26b3b648c"
+      },
+      {
+        "n": 2,
+        "head": "01dbb31d72882ae275c101d7316143791ed588039503c5cc68b82744226e9340",
+        "membros": [
+          {
+            "user_id": "2b4d6f81-3a5c-4e7a-9b1d-3f5a7c9e1b2d",
+            "role": "membro"
+          },
+          {
+            "user_id": "5c6d7e8f-9a0b-4c1d-8e2f-3a4b5c6d7e8f",
+            "role": "membro"
+          },
+          {
+            "user_id": "7d0c9b8a-1e2f-4a3b-9c4d-5e6f7a8b9c0d",
+            "role": "admin"
+          }
+        ],
+        "encerrado_em": 0,
+        "admin_label": "",
+        "meta_commit": "b560a22a84e98082a02b60bbbf8c346ddb26f89ab03bb66cb9d314c26b3b648c"
+      },
+      {
+        "n": 3,
+        "head": "ed204376a03a2154f3ec0fdda6b732688b319ee5f3455e7ba51d781706afa279",
+        "membros": [
+          {
+            "user_id": "2b4d6f81-3a5c-4e7a-9b1d-3f5a7c9e1b2d",
+            "role": "admin"
+          },
+          {
+            "user_id": "5c6d7e8f-9a0b-4c1d-8e2f-3a4b5c6d7e8f",
+            "role": "membro"
+          },
+          {
+            "user_id": "7d0c9b8a-1e2f-4a3b-9c4d-5e6f7a8b9c0d",
+            "role": "admin"
+          }
+        ],
+        "encerrado_em": 0,
+        "admin_label": "",
+        "meta_commit": "b560a22a84e98082a02b60bbbf8c346ddb26f89ab03bb66cb9d314c26b3b648c"
+      },
+      {
+        "n": 4,
+        "head": "a7793ecc5a22e11b397c3e2edb589c25362cfee562eea0bbe9c0b3e81c63ea55",
+        "membros": [
+          {
+            "user_id": "2b4d6f81-3a5c-4e7a-9b1d-3f5a7c9e1b2d",
+            "role": "admin"
+          },
+          {
+            "user_id": "5c6d7e8f-9a0b-4c1d-8e2f-3a4b5c6d7e8f",
+            "role": "membro"
+          },
+          {
+            "user_id": "7d0c9b8a-1e2f-4a3b-9c4d-5e6f7a8b9c0d",
+            "role": "admin"
+          }
+        ],
+        "encerrado_em": 0,
+        "admin_label": "",
+        "meta_commit": "349edacdd455bee41b5ec1a15cae0c207e2e4fe96d1e7fee796b48d233747a85"
+      },
+      {
+        "n": 5,
+        "head": "b3acccd8a53001064d6d2dda1cefecb2a92c0c69279008ff5efdf55b7a7327ca",
+        "membros": [
+          {
+            "user_id": "2b4d6f81-3a5c-4e7a-9b1d-3f5a7c9e1b2d",
+            "role": "admin"
+          },
+          {
+            "user_id": "7d0c9b8a-1e2f-4a3b-9c4d-5e6f7a8b9c0d",
+            "role": "admin"
+          }
+        ],
+        "encerrado_em": 0,
+        "admin_label": "",
+        "meta_commit": "349edacdd455bee41b5ec1a15cae0c207e2e4fe96d1e7fee796b48d233747a85"
+      },
+      {
+        "n": 6,
+        "head": "ae79be4f31672860f38761045e5a0c3dd5796f654e0b3cb2b801d1ffc4af7ed5",
+        "membros": [
+          {
+            "user_id": "2b4d6f81-3a5c-4e7a-9b1d-3f5a7c9e1b2d",
+            "role": "admin"
+          },
+          {
+            "user_id": "7d0c9b8a-1e2f-4a3b-9c4d-5e6f7a8b9c0d",
+            "role": "admin"
+          },
+          {
+            "user_id": "d1e2f3a4-b5c6-4d7e-8f90-a1b2c3d4e5f6",
+            "role": "membro"
+          }
+        ],
+        "encerrado_em": 0,
+        "admin_label": "",
+        "meta_commit": "349edacdd455bee41b5ec1a15cae0c207e2e4fe96d1e7fee796b48d233747a85"
+      },
+      {
+        "n": 7,
+        "head": "5f9b1e3a1d6680ad56eb9908ce720ca8c770d125d7e4cf2a1dede6f1e6a7bedb",
+        "membros": [
+          {
+            "user_id": "2b4d6f81-3a5c-4e7a-9b1d-3f5a7c9e1b2d",
+            "role": "admin"
+          },
+          {
+            "user_id": "d1e2f3a4-b5c6-4d7e-8f90-a1b2c3d4e5f6",
+            "role": "membro"
+          }
+        ],
+        "encerrado_em": 0,
+        "admin_label": "",
+        "meta_commit": "349edacdd455bee41b5ec1a15cae0c207e2e4fe96d1e7fee796b48d233747a85"
+      },
+      {
+        "n": 8,
+        "head": "1dd6ff539d1e7063c3e7c3bc64d4b9f07ecef642b86d29c15394ea8e78ab9d94",
+        "membros": [
+          {
+            "user_id": "2b4d6f81-3a5c-4e7a-9b1d-3f5a7c9e1b2d",
+            "role": "admin"
+          },
+          {
+            "user_id": "d1e2f3a4-b5c6-4d7e-8f90-a1b2c3d4e5f6",
+            "role": "membro"
+          }
+        ],
+        "encerrado_em": 8,
+        "admin_label": "",
+        "meta_commit": "349edacdd455bee41b5ec1a15cae0c207e2e4fe96d1e7fee796b48d233747a85"
+      }
+    ],
+    "estado_final": {
+      "n": 8,
+      "head": "1dd6ff539d1e7063c3e7c3bc64d4b9f07ecef642b86d29c15394ea8e78ab9d94",
+      "membros": [
+        {
+          "user_id": "2b4d6f81-3a5c-4e7a-9b1d-3f5a7c9e1b2d",
+          "role": "admin"
+        },
+        {
+          "user_id": "d1e2f3a4-b5c6-4d7e-8f90-a1b2c3d4e5f6",
+          "role": "membro"
+        }
+      ],
+      "encerrado_em": 8,
+      "admin_label": "",
+      "meta_commit": "349edacdd455bee41b5ec1a15cae0c207e2e4fe96d1e7fee796b48d233747a85"
+    },
+    "consultas": [
+      {
+        "apos_registro": 4,
+        "usuario": "marcos",
+        "user_id": "5c6d7e8f-9a0b-4c1d-8e2f-3a4b5c6d7e8f",
+        "chain_n": 1,
+        "membro_em_n": false,
+        "pode_reembrulhar": true
+      },
+      {
+        "apos_registro": 4,
+        "usuario": "marcos",
+        "user_id": "5c6d7e8f-9a0b-4c1d-8e2f-3a4b5c6d7e8f",
+        "chain_n": 2,
+        "membro_em_n": true,
+        "pode_reembrulhar": true
+      },
+      {
+        "apos_registro": 4,
+        "usuario": "joao",
+        "user_id": "2b4d6f81-3a5c-4e7a-9b1d-3f5a7c9e1b2d",
+        "chain_n": 1,
+        "membro_em_n": true,
+        "pode_reembrulhar": true
+      },
+      {
+        "apos_registro": 6,
+        "usuario": "marcos",
+        "user_id": "5c6d7e8f-9a0b-4c1d-8e2f-3a4b5c6d7e8f",
+        "chain_n": 3,
+        "membro_em_n": true,
+        "pode_reembrulhar": false
+      },
+      {
+        "apos_registro": 6,
+        "usuario": "paula",
+        "user_id": "d1e2f3a4-b5c6-4d7e-8f90-a1b2c3d4e5f6",
+        "chain_n": 5,
+        "membro_em_n": false,
+        "pode_reembrulhar": false
+      },
+      {
+        "apos_registro": 6,
+        "usuario": "paula",
+        "user_id": "d1e2f3a4-b5c6-4d7e-8f90-a1b2c3d4e5f6",
+        "chain_n": 6,
+        "membro_em_n": true,
+        "pode_reembrulhar": true
+      },
+      {
+        "apos_registro": 8,
+        "usuario": "ana",
+        "user_id": "7d0c9b8a-1e2f-4a3b-9c4d-5e6f7a8b9c0d",
+        "chain_n": 6,
+        "membro_em_n": true,
+        "pode_reembrulhar": false
+      },
+      {
+        "apos_registro": 8,
+        "usuario": "ana",
+        "user_id": "7d0c9b8a-1e2f-4a3b-9c4d-5e6f7a8b9c0d",
+        "chain_n": 7,
+        "membro_em_n": false,
+        "pode_reembrulhar": false
+      },
+      {
+        "apos_registro": 8,
+        "usuario": "joao",
+        "user_id": "2b4d6f81-3a5c-4e7a-9b1d-3f5a7c9e1b2d",
+        "chain_n": 8,
+        "membro_em_n": true,
+        "pode_reembrulhar": true
+      }
+    ]
+  },
+  "grupo_oficial": {
+    "conversation_id": "c1d2e3f4-a5b6-4c7d-8e9f-0a1b2c3d4e5f",
+    "meta_json": "{\"v\":1,\"salt\":\"l2q567LIrX32rI-68oNjv4X29Lj5S9pnKXwAHA9XxRg\",\"name\":\"Diretoria\",\"description\":\"Comunicados da diretoria\"}",
+    "registros": [
+      {
+        "n": 1,
+        "tipo": "criar",
+        "kind": 1,
+        "autor": "moderador",
+        "created_at": 1798100000000,
+        "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "body": "0000001344697265746f726961202d206f66696369616c0000000000000000000000000000000000000000000000000000000000000000000000032b4d6f813a5c4e7a9b1d3f5a7c9e1b2d000000015c6d7e8f9a0b4c1d8e2f3a4b5c6d7e8f000000017d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d00000002",
+        "change_bytes": "6469726563742f76312f67726f75702d6368616e676500c1d2e3f4a5b64c7d8e9f0a1b2c3d4e5f0000000000000001000000000000000000000000000000000000000000000000000000000000000000000001000000020000000000000000000000000000000000000000000000000000000000000000000001a2a71c9d00000000770000001344697265746f726961202d206f66696369616c0000000000000000000000000000000000000000000000000000000000000000000000032b4d6f813a5c4e7a9b1d3f5a7c9e1b2d000000015c6d7e8f9a0b4c1d8e2f3a4b5c6d7e8f000000017d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d00000002",
+        "signature": "28405ef051c24a61396409fb42f4ae7279d98d72bb1e7a90c4f6ef226d6e41e5dc3a1fe417c3a61274690fc6ac25d028ea1a2aae23eba0aa97662969befd5d0d",
+        "record_hash": "d188050a3aa4a4c743e490771024c573658c15039b13d553dfa314ae91b80428",
+        "json": {
+          "n": 1,
+          "change_bytes": "ZGlyZWN0L3YxL2dyb3VwLWNoYW5nZQDB0uP0pbZMfY6fChssPU5fAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGipxydAAAAAHcAAAATRGlyZXRvcmlhIC0gb2ZpY2lhbAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAytNb4E6XE56mx0_WnyeGy0AAAABXG1-j5oLTB2OLzpLXG1-jwAAAAF9DJuKHi9KO5xNXm96i5wNAAAAAg",
+          "signature": "KEBe8FHCSmE5ZAn7QvSucnnZjXK7HnqQxPbvIm1uQeXcOh_kF8OmEnRpD8asJdAo6hoqriProKqXZilpvv1dDQ"
+        }
+      },
+      {
+        "n": 2,
+        "tipo": "renomear",
+        "kind": 6,
+        "autor": "A",
+        "created_at": 1798100060000,
+        "prev_hash": "d188050a3aa4a4c743e490771024c573658c15039b13d553dfa314ae91b80428",
+        "body": "c3916c6bf1244d6f3832cc58a3ee2c8498fa58dded2b6fa4c429097c113f6956",
+        "change_bytes": "6469726563742f76312f67726f75702d6368616e676500c1d2e3f4a5b64c7d8e9f0a1b2c3d4e5f0000000000000002d188050a3aa4a4c743e490771024c573658c15039b13d553dfa314ae91b804280000000600000001c3a1e2f45b6d4e7f8a9b0c1d2e3f4a5b7d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d000001a2a71d876000000020c3916c6bf1244d6f3832cc58a3ee2c8498fa58dded2b6fa4c429097c113f6956",
+        "signature": "4b1a9a4550a294582846b6f05ae6afd38b0fc97816a21af158b6ddb54082f54e093f05069a620f7718f800ebbcea101e6fdf97b914f2e8d73700ea5213f7b809",
+        "record_hash": "14a6622bc00057daaa77940c7c8ee367a689a18c3e44c6e72000a7851301dbf8",
+        "json": {
+          "n": 2,
+          "change_bytes": "ZGlyZWN0L3YxL2dyb3VwLWNoYW5nZQDB0uP0pbZMfY6fChssPU5fAAAAAAAAAALRiAUKOqSkx0PkkHcQJMVzZYwVA5sT1VPfoxSukbgEKAAAAAYAAAABw6Hi9FttTn-KmwwdLj9KW30Mm4oeL0o7nE1eb3qLnA0AAAGipx2HYAAAACDDkWxr8SRNbzgyzFij7iyEmPpY3e0rb6TEKQl8ET9pVg",
+          "signature": "SxqaRVCilFgoRrbwWuav04sPyXgWohrxWLbdtUCC9U4JPwUGmmIPdxj4AOu86hAeb9-XuRTy6Nc3AOpSE_e4CQ"
+        }
+      }
+    ],
+    "estado_final": {
+      "n": 2,
+      "head": "14a6622bc00057daaa77940c7c8ee367a689a18c3e44c6e72000a7851301dbf8",
+      "membros": [
+        {
+          "user_id": "2b4d6f81-3a5c-4e7a-9b1d-3f5a7c9e1b2d",
+          "role": "membro"
+        },
+        {
+          "user_id": "5c6d7e8f-9a0b-4c1d-8e2f-3a4b5c6d7e8f",
+          "role": "membro"
+        },
+        {
+          "user_id": "7d0c9b8a-1e2f-4a3b-9c4d-5e6f7a8b9c0d",
+          "role": "admin"
+        }
+      ],
+      "encerrado_em": 0,
+      "admin_label": "Diretoria - oficial",
+      "meta_commit": "c3916c6bf1244d6f3832cc58a3ee2c8498fa58dded2b6fa4c429097c113f6956"
+    }
+  },
+  "deve_falhar": [
+    {
+      "caso": "assinatura_errada",
+      "descricao": "registro 2 da cadeia válida com um bit trocado na assinatura",
+      "codigo": "assinatura",
+      "n": 2,
+      "registros": [
+        {
+          "change_bytes": "6469726563742f76312f67726f75702d6368616e676500b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e000000000000000100000000000000000000000000000000000000000000000000000000000000000000000100000001c3a1e2f45b6d4e7f8a9b0c1d2e3f4a5b7d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d000001a2a71c9d000000005000000000b560a22a84e98082a02b60bbbf8c346ddb26f89ab03bb66cb9d314c26b3b648c000000022b4d6f813a5c4e7a9b1d3f5a7c9e1b2d000000017d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d00000002",
+          "signature": "ceff4e8c34105461b74c641f727faa7533167770f99c23d564ec0f2762ffcf43b01995f0375136e30ea19e37603a5aa0555858caa9d7df68bde7f2e728211208"
+        },
+        {
+          "change_bytes": "6469726563742f76312f67726f75702d6368616e676500b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e000000000000000240cc395985488164d9e17e57198f6eeb36eff0cbfef76d34919a603fa81e172c0000000200000001c3a1e2f45b6d4e7f8a9b0c1d2e3f4a5b7d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d000001a2a71d87600000001800000001000000015c6d7e8f9a0b4c1d8e2f3a4b5c6d7e8f",
+          "signature": "2a77bf069356a42fa8a0b06f20ecbb2b22ca430c0bd446c85fca37cb623fa49d67212422daca91be3248589bb39d5d6c1e87dcd4a92eb38290d2bbc370c47505"
+        }
+      ]
+    },
+    {
+      "caso": "moderador_falso",
+      "descricao": "remoção assinada por chave que não é a do moderador fixada",
+      "codigo": "assinatura",
+      "n": 2,
+      "registros": [
+        {
+          "change_bytes": "6469726563742f76312f67726f75702d6368616e676500b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e000000000000000100000000000000000000000000000000000000000000000000000000000000000000000100000001c3a1e2f45b6d4e7f8a9b0c1d2e3f4a5b7d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d000001a2a71c9d000000005000000000b560a22a84e98082a02b60bbbf8c346ddb26f89ab03bb66cb9d314c26b3b648c000000022b4d6f813a5c4e7a9b1d3f5a7c9e1b2d000000017d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d00000002",
+          "signature": "ceff4e8c34105461b74c641f727faa7533167770f99c23d564ec0f2762ffcf43b01995f0375136e30ea19e37603a5aa0555858caa9d7df68bde7f2e728211208"
+        },
+        {
+          "change_bytes": "6469726563742f76312f67726f75702d6368616e676500b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e000000000000000240cc395985488164d9e17e57198f6eeb36eff0cbfef76d34919a603fa81e172c00000003000000020000000000000000000000000000000000000000000000000000000000000000000001a2a71d876000000014000000012b4d6f813a5c4e7a9b1d3f5a7c9e1b2d",
+          "signature": "17000777ebd912ef9fc4476af13dcf1363873e088766ac2dafda8f7004cc5d02dd4d954fcd968c83260609debea407597ed2398710de60f7f402a5e26c638008"
+        }
+      ]
+    },
+    {
+      "caso": "prev_hash_quebrado",
+      "descricao": "registro 2 bem assinado, mas com prev_hash que não é o hash do registro 1",
+      "codigo": "prev_hash",
+      "n": 2,
+      "registros": [
+        {
+          "change_bytes": "6469726563742f76312f67726f75702d6368616e676500b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e000000000000000100000000000000000000000000000000000000000000000000000000000000000000000100000001c3a1e2f45b6d4e7f8a9b0c1d2e3f4a5b7d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d000001a2a71c9d000000005000000000b560a22a84e98082a02b60bbbf8c346ddb26f89ab03bb66cb9d314c26b3b648c000000022b4d6f813a5c4e7a9b1d3f5a7c9e1b2d000000017d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d00000002",
+          "signature": "ceff4e8c34105461b74c641f727faa7533167770f99c23d564ec0f2762ffcf43b01995f0375136e30ea19e37603a5aa0555858caa9d7df68bde7f2e728211208"
+        },
+        {
+          "change_bytes": "6469726563742f76312f67726f75702d6368616e676500b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e000000000000000241cc395985488164d9e17e57198f6eeb36eff0cbfef76d34919a603fa81e172c0000000200000001c3a1e2f45b6d4e7f8a9b0c1d2e3f4a5b7d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d000001a2a71d8760000000180000000000000001d1e2f3a4b5c64d7e8f90a1b2c3d4e5f6",
+          "signature": "826cfd442918c1cb29c425fa2906941dd185556541cfb24933cff98f7267b6d2f3cf3d07eb96cfc396d0586401ab09291179e43d22a003ac4a24153f3ff28a06"
+        }
+      ]
+    },
+    {
+      "caso": "n_pulado",
+      "descricao": "segundo registro com n = 3",
+      "codigo": "sequencia",
+      "n": 2,
+      "registros": [
+        {
+          "change_bytes": "6469726563742f76312f67726f75702d6368616e676500b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e000000000000000100000000000000000000000000000000000000000000000000000000000000000000000100000001c3a1e2f45b6d4e7f8a9b0c1d2e3f4a5b7d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d000001a2a71c9d000000005000000000b560a22a84e98082a02b60bbbf8c346ddb26f89ab03bb66cb9d314c26b3b648c000000022b4d6f813a5c4e7a9b1d3f5a7c9e1b2d000000017d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d00000002",
+          "signature": "ceff4e8c34105461b74c641f727faa7533167770f99c23d564ec0f2762ffcf43b01995f0375136e30ea19e37603a5aa0555858caa9d7df68bde7f2e728211208"
+        },
+        {
+          "change_bytes": "6469726563742f76312f67726f75702d6368616e676500b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e000000000000000340cc395985488164d9e17e57198f6eeb36eff0cbfef76d34919a603fa81e172c0000000200000001c3a1e2f45b6d4e7f8a9b0c1d2e3f4a5b7d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d000001a2a71d8760000000180000000000000001d1e2f3a4b5c64d7e8f90a1b2c3d4e5f6",
+          "signature": "eff7f28fb1ea8329e322d9c0e5cf094a72fff316d0738a4508849878bfafab6b3e5a7cf18186a6432b72c3ed3f828c9a47f8000130e6f9d18c7ee4ffab4ee609"
+        }
+      ]
+    },
+    {
+      "caso": "criar_depois_do_inicio",
+      "descricao": "registro de criação na posição 2",
+      "codigo": "sequencia",
+      "n": 2,
+      "registros": [
+        {
+          "change_bytes": "6469726563742f76312f67726f75702d6368616e676500b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e000000000000000100000000000000000000000000000000000000000000000000000000000000000000000100000001c3a1e2f45b6d4e7f8a9b0c1d2e3f4a5b7d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d000001a2a71c9d000000005000000000b560a22a84e98082a02b60bbbf8c346ddb26f89ab03bb66cb9d314c26b3b648c000000022b4d6f813a5c4e7a9b1d3f5a7c9e1b2d000000017d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d00000002",
+          "signature": "ceff4e8c34105461b74c641f727faa7533167770f99c23d564ec0f2762ffcf43b01995f0375136e30ea19e37603a5aa0555858caa9d7df68bde7f2e728211208"
+        },
+        {
+          "change_bytes": "6469726563742f76312f67726f75702d6368616e676500b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e000000000000000240cc395985488164d9e17e57198f6eeb36eff0cbfef76d34919a603fa81e172c0000000100000001c3a1e2f45b6d4e7f8a9b0c1d2e3f4a5b7d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d000001a2a71d87600000003c00000000b560a22a84e98082a02b60bbbf8c346ddb26f89ab03bb66cb9d314c26b3b648c000000017d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d00000002",
+          "signature": "029b50eedca1b3b5cf8cd4ea6414f1cfbc6ad5b4a88ed9ac356521c6816ee6dbc3e3630c8712553f27722703c23d24131e3cdbb2ef88044fb57d9a9add5fb90d"
+        }
+      ]
+    },
+    {
+      "caso": "outra_conversa",
+      "descricao": "registro 2 com conversation_id de outro grupo",
+      "codigo": "conversa",
+      "n": 2,
+      "registros": [
+        {
+          "change_bytes": "6469726563742f76312f67726f75702d6368616e676500b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e000000000000000100000000000000000000000000000000000000000000000000000000000000000000000100000001c3a1e2f45b6d4e7f8a9b0c1d2e3f4a5b7d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d000001a2a71c9d000000005000000000b560a22a84e98082a02b60bbbf8c346ddb26f89ab03bb66cb9d314c26b3b648c000000022b4d6f813a5c4e7a9b1d3f5a7c9e1b2d000000017d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d00000002",
+          "signature": "ceff4e8c34105461b74c641f727faa7533167770f99c23d564ec0f2762ffcf43b01995f0375136e30ea19e37603a5aa0555858caa9d7df68bde7f2e728211208"
+        },
+        {
+          "change_bytes": "6469726563742f76312f67726f75702d6368616e676500c1d2e3f4a5b64c7d8e9f0a1b2c3d4e5f000000000000000240cc395985488164d9e17e57198f6eeb36eff0cbfef76d34919a603fa81e172c0000000200000001c3a1e2f45b6d4e7f8a9b0c1d2e3f4a5b7d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d000001a2a71d8760000000180000000000000001d1e2f3a4b5c64d7e8f90a1b2c3d4e5f6",
+          "signature": "6e091016c72e32a530e958b925cb877fe4ccf681b48e2f869fa07774d9602ae46a07d0a99ca31f3f6f6d9fdde115f2d33ba73b94f99a2cdbf3e95b667707a208"
+        }
+      ]
+    },
+    {
+      "caso": "autor_sem_papel",
+      "descricao": "João, membro comum, tenta adicionar Paula",
+      "codigo": "papel",
+      "n": 2,
+      "registros": [
+        {
+          "change_bytes": "6469726563742f76312f67726f75702d6368616e676500b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e000000000000000100000000000000000000000000000000000000000000000000000000000000000000000100000001c3a1e2f45b6d4e7f8a9b0c1d2e3f4a5b7d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d000001a2a71c9d000000005000000000b560a22a84e98082a02b60bbbf8c346ddb26f89ab03bb66cb9d314c26b3b648c000000022b4d6f813a5c4e7a9b1d3f5a7c9e1b2d000000017d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d00000002",
+          "signature": "ceff4e8c34105461b74c641f727faa7533167770f99c23d564ec0f2762ffcf43b01995f0375136e30ea19e37603a5aa0555858caa9d7df68bde7f2e728211208"
+        },
+        {
+          "change_bytes": "6469726563742f76312f67726f75702d6368616e676500b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e000000000000000240cc395985488164d9e17e57198f6eeb36eff0cbfef76d34919a603fa81e172c00000002000000011f2e3d4c5b6a49788695a4b3c2d1e0f92b4d6f813a5c4e7a9b1d3f5a7c9e1b2d000001a2a71d8760000000180000000000000001d1e2f3a4b5c64d7e8f90a1b2c3d4e5f6",
+          "signature": "6a0baf243dc0e5501d4cd265423c24ef19ed555dc084b06950b40fd3a8b78e8828299b6eedb28f4a7fe0d0449a3118c644eccd01def46dcc4bd39bade398fe0d"
+        }
+      ]
+    },
+    {
+      "caso": "moderador_adiciona",
+      "descricao": "o moderador não assina adicionar",
+      "codigo": "papel",
+      "n": 2,
+      "registros": [
+        {
+          "change_bytes": "6469726563742f76312f67726f75702d6368616e676500b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e000000000000000100000000000000000000000000000000000000000000000000000000000000000000000100000001c3a1e2f45b6d4e7f8a9b0c1d2e3f4a5b7d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d000001a2a71c9d000000005000000000b560a22a84e98082a02b60bbbf8c346ddb26f89ab03bb66cb9d314c26b3b648c000000022b4d6f813a5c4e7a9b1d3f5a7c9e1b2d000000017d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d00000002",
+          "signature": "ceff4e8c34105461b74c641f727faa7533167770f99c23d564ec0f2762ffcf43b01995f0375136e30ea19e37603a5aa0555858caa9d7df68bde7f2e728211208"
+        },
+        {
+          "change_bytes": "6469726563742f76312f67726f75702d6368616e676500b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e000000000000000240cc395985488164d9e17e57198f6eeb36eff0cbfef76d34919a603fa81e172c00000002000000020000000000000000000000000000000000000000000000000000000000000000000001a2a71d8760000000180000000000000001d1e2f3a4b5c64d7e8f90a1b2c3d4e5f6",
+          "signature": "dce08e8ba2c7a71eaea1620f8fff54c19d55eea7f0555773f914385c78bde380cbbbccd2f921eb334550d00ace6fd860c132db11aedc1eb491afd7fd19af2a0b"
+        }
+      ]
+    },
+    {
+      "caso": "moderador_renomeia",
+      "descricao": "o moderador não assina renomear",
+      "codigo": "papel",
+      "n": 2,
+      "registros": [
+        {
+          "change_bytes": "6469726563742f76312f67726f75702d6368616e676500b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e000000000000000100000000000000000000000000000000000000000000000000000000000000000000000100000001c3a1e2f45b6d4e7f8a9b0c1d2e3f4a5b7d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d000001a2a71c9d000000005000000000b560a22a84e98082a02b60bbbf8c346ddb26f89ab03bb66cb9d314c26b3b648c000000022b4d6f813a5c4e7a9b1d3f5a7c9e1b2d000000017d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d00000002",
+          "signature": "ceff4e8c34105461b74c641f727faa7533167770f99c23d564ec0f2762ffcf43b01995f0375136e30ea19e37603a5aa0555858caa9d7df68bde7f2e728211208"
+        },
+        {
+          "change_bytes": "6469726563742f76312f67726f75702d6368616e676500b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e000000000000000240cc395985488164d9e17e57198f6eeb36eff0cbfef76d34919a603fa81e172c00000006000000020000000000000000000000000000000000000000000000000000000000000000000001a2a71d876000000020349edacdd455bee41b5ec1a15cae0c207e2e4fe96d1e7fee796b48d233747a85",
+          "signature": "4d50ff6e7106ccd8f10638010c88e6666511ea8994898299794ecc0b34a8ad602de7897e64ee4f1e7e53099c75b68e4a0684f4fab387a1b4722c22557fa7e70d"
+        }
+      ]
+    },
+    {
+      "caso": "nao_membro_sai",
+      "descricao": "Paula, que não é membro, assina sair",
+      "codigo": "papel",
+      "n": 2,
+      "registros": [
+        {
+          "change_bytes": "6469726563742f76312f67726f75702d6368616e676500b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e000000000000000100000000000000000000000000000000000000000000000000000000000000000000000100000001c3a1e2f45b6d4e7f8a9b0c1d2e3f4a5b7d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d000001a2a71c9d000000005000000000b560a22a84e98082a02b60bbbf8c346ddb26f89ab03bb66cb9d314c26b3b648c000000022b4d6f813a5c4e7a9b1d3f5a7c9e1b2d000000017d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d00000002",
+          "signature": "ceff4e8c34105461b74c641f727faa7533167770f99c23d564ec0f2762ffcf43b01995f0375136e30ea19e37603a5aa0555858caa9d7df68bde7f2e728211208"
+        },
+        {
+          "change_bytes": "6469726563742f76312f67726f75702d6368616e676500b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e000000000000000240cc395985488164d9e17e57198f6eeb36eff0cbfef76d34919a603fa81e172c00000005000000016f5e4d3c2b1a4098a7b6c5d4e3f2a1b0d1e2f3a4b5c64d7e8f90a1b2c3d4e5f6000001a2a71d876000000000",
+          "signature": "0cdc463ad28bacafa222cae9cbd47fdbd10fa9c95f8b34b76c8635c28250355a80277bbd23e99194d2def64ec6c6ed7cde08115b54d34a2bb3742ad6a9f85f0a"
+        }
+      ]
+    },
+    {
+      "caso": "criador_nao_admin",
+      "descricao": "Ana cria o grupo, mas se coloca como membro comum",
+      "codigo": "papel",
+      "n": 1,
+      "registros": [
+        {
+          "change_bytes": "6469726563742f76312f67726f75702d6368616e676500b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e000000000000000100000000000000000000000000000000000000000000000000000000000000000000000100000001c3a1e2f45b6d4e7f8a9b0c1d2e3f4a5b7d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d000001a2a71c9d000000005000000000b560a22a84e98082a02b60bbbf8c346ddb26f89ab03bb66cb9d314c26b3b648c000000022b4d6f813a5c4e7a9b1d3f5a7c9e1b2d000000027d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d00000001",
+          "signature": "ec4dac7e2c916ef2bd353c52dd96c52cfc2aa7ea51c28d78cafcd29ba65feec2ae9117407bdc6bbd8efe5d3afe93cadbd93e5a8a3f683ccb68d8344221206b0d"
+        }
+      ]
+    },
+    {
+      "caso": "usuario_do_autor_trocado",
+      "descricao": "aparelho A (de Ana) declara author_user_id de João",
+      "codigo": "autor",
+      "n": 2,
+      "registros": [
+        {
+          "change_bytes": "6469726563742f76312f67726f75702d6368616e676500b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e000000000000000100000000000000000000000000000000000000000000000000000000000000000000000100000001c3a1e2f45b6d4e7f8a9b0c1d2e3f4a5b7d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d000001a2a71c9d000000005000000000b560a22a84e98082a02b60bbbf8c346ddb26f89ab03bb66cb9d314c26b3b648c000000022b4d6f813a5c4e7a9b1d3f5a7c9e1b2d000000017d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d00000002",
+          "signature": "ceff4e8c34105461b74c641f727faa7533167770f99c23d564ec0f2762ffcf43b01995f0375136e30ea19e37603a5aa0555858caa9d7df68bde7f2e728211208"
+        },
+        {
+          "change_bytes": "6469726563742f76312f67726f75702d6368616e676500b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e000000000000000240cc395985488164d9e17e57198f6eeb36eff0cbfef76d34919a603fa81e172c0000000200000001c3a1e2f45b6d4e7f8a9b0c1d2e3f4a5b2b4d6f813a5c4e7a9b1d3f5a7c9e1b2d000001a2a71d8760000000180000000000000001d1e2f3a4b5c64d7e8f90a1b2c3d4e5f6",
+          "signature": "2753e510dbb6b7f2045ed0330ff5885e9071c1987ab69f2fe3157e4d0cebe8323178e6f198df820210fe3373047da6d8adf29d1e4035ffefeaf3df7ffc3b530f"
+        }
+      ]
+    },
+    {
+      "caso": "aparelho_sem_certificado",
+      "descricao": "autor é um aparelho sem certificado conhecido",
+      "codigo": "autor",
+      "n": 2,
+      "registros": [
+        {
+          "change_bytes": "6469726563742f76312f67726f75702d6368616e676500b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e000000000000000100000000000000000000000000000000000000000000000000000000000000000000000100000001c3a1e2f45b6d4e7f8a9b0c1d2e3f4a5b7d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d000001a2a71c9d000000005000000000b560a22a84e98082a02b60bbbf8c346ddb26f89ab03bb66cb9d314c26b3b648c000000022b4d6f813a5c4e7a9b1d3f5a7c9e1b2d000000017d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d00000002",
+          "signature": "ceff4e8c34105461b74c641f727faa7533167770f99c23d564ec0f2762ffcf43b01995f0375136e30ea19e37603a5aa0555858caa9d7df68bde7f2e728211208"
+        },
+        {
+          "change_bytes": "6469726563742f76312f67726f75702d6368616e676500b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e000000000000000240cc395985488164d9e17e57198f6eeb36eff0cbfef76d34919a603fa81e172c0000000200000001000000000000400080000000000000f17d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d000001a2a71d8760000000180000000000000001d1e2f3a4b5c64d7e8f90a1b2c3d4e5f6",
+          "signature": "65337013fbf6cf6203254b54167b5b7e91336642ee580b33b5b989d218a9758b29a3866884bcc6e6b576fb2502cce5402cb6479867aedf6c59b74b8c603fda07"
+        }
+      ]
+    },
+    {
+      "caso": "alvo_ja_membro",
+      "descricao": "Ana adiciona João, que já é membro",
+      "codigo": "alvo",
+      "n": 2,
+      "registros": [
+        {
+          "change_bytes": "6469726563742f76312f67726f75702d6368616e676500b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e000000000000000100000000000000000000000000000000000000000000000000000000000000000000000100000001c3a1e2f45b6d4e7f8a9b0c1d2e3f4a5b7d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d000001a2a71c9d000000005000000000b560a22a84e98082a02b60bbbf8c346ddb26f89ab03bb66cb9d314c26b3b648c000000022b4d6f813a5c4e7a9b1d3f5a7c9e1b2d000000017d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d00000002",
+          "signature": "ceff4e8c34105461b74c641f727faa7533167770f99c23d564ec0f2762ffcf43b01995f0375136e30ea19e37603a5aa0555858caa9d7df68bde7f2e728211208"
+        },
+        {
+          "change_bytes": "6469726563742f76312f67726f75702d6368616e676500b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e000000000000000240cc395985488164d9e17e57198f6eeb36eff0cbfef76d34919a603fa81e172c0000000200000001c3a1e2f45b6d4e7f8a9b0c1d2e3f4a5b7d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d000001a2a71d87600000001800000000000000012b4d6f813a5c4e7a9b1d3f5a7c9e1b2d",
+          "signature": "fd5e4eb2484f66c1e0185b0060a3f5c7c05f28933df992bf49ba9341391173dedcc9f96a7697565d87cabd6c786a6b9caf275b548607738f1d990f25dbb67609"
+        }
+      ]
+    },
+    {
+      "caso": "remover_a_si_mesmo",
+      "descricao": "Ana se remove (deve usar sair)",
+      "codigo": "alvo",
+      "n": 2,
+      "registros": [
+        {
+          "change_bytes": "6469726563742f76312f67726f75702d6368616e676500b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e000000000000000100000000000000000000000000000000000000000000000000000000000000000000000100000001c3a1e2f45b6d4e7f8a9b0c1d2e3f4a5b7d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d000001a2a71c9d000000005000000000b560a22a84e98082a02b60bbbf8c346ddb26f89ab03bb66cb9d314c26b3b648c000000022b4d6f813a5c4e7a9b1d3f5a7c9e1b2d000000017d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d00000002",
+          "signature": "ceff4e8c34105461b74c641f727faa7533167770f99c23d564ec0f2762ffcf43b01995f0375136e30ea19e37603a5aa0555858caa9d7df68bde7f2e728211208"
+        },
+        {
+          "change_bytes": "6469726563742f76312f67726f75702d6368616e676500b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e000000000000000240cc395985488164d9e17e57198f6eeb36eff0cbfef76d34919a603fa81e172c0000000300000001c3a1e2f45b6d4e7f8a9b0c1d2e3f4a5b7d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d000001a2a71d876000000014000000017d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d",
+          "signature": "0376cc8ada117dcde2d088eb8c5bb33882a4d02105c1a2c88de267fd6bd75d154e5c71baea13a2f77d53986de3651ec4e939e0b465dc4319384646979bc0c404"
+        }
+      ]
+    },
+    {
+      "caso": "remover_nao_membro",
+      "descricao": "Ana remove Paula, que não é membro",
+      "codigo": "alvo",
+      "n": 2,
+      "registros": [
+        {
+          "change_bytes": "6469726563742f76312f67726f75702d6368616e676500b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e000000000000000100000000000000000000000000000000000000000000000000000000000000000000000100000001c3a1e2f45b6d4e7f8a9b0c1d2e3f4a5b7d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d000001a2a71c9d000000005000000000b560a22a84e98082a02b60bbbf8c346ddb26f89ab03bb66cb9d314c26b3b648c000000022b4d6f813a5c4e7a9b1d3f5a7c9e1b2d000000017d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d00000002",
+          "signature": "ceff4e8c34105461b74c641f727faa7533167770f99c23d564ec0f2762ffcf43b01995f0375136e30ea19e37603a5aa0555858caa9d7df68bde7f2e728211208"
+        },
+        {
+          "change_bytes": "6469726563742f76312f67726f75702d6368616e676500b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e000000000000000240cc395985488164d9e17e57198f6eeb36eff0cbfef76d34919a603fa81e172c0000000300000001c3a1e2f45b6d4e7f8a9b0c1d2e3f4a5b7d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d000001a2a71d87600000001400000001d1e2f3a4b5c64d7e8f90a1b2c3d4e5f6",
+          "signature": "c96e067d721c420f3dab9b4f86b0d7e56c9829ebbe7da9c11a5bdf8c4d807b1e45adf272b6784c2d322348984f0dabae71f6bc0c210910a6574584baf9cab108"
+        }
+      ]
+    },
+    {
+      "caso": "alvos_fora_de_ordem",
+      "descricao": "lista de alvos fora da ordem crescente",
+      "codigo": "formato",
+      "n": 2,
+      "registros": [
+        {
+          "change_bytes": "6469726563742f76312f67726f75702d6368616e676500b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e000000000000000100000000000000000000000000000000000000000000000000000000000000000000000100000001c3a1e2f45b6d4e7f8a9b0c1d2e3f4a5b7d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d000001a2a71c9d000000005000000000b560a22a84e98082a02b60bbbf8c346ddb26f89ab03bb66cb9d314c26b3b648c000000022b4d6f813a5c4e7a9b1d3f5a7c9e1b2d000000017d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d00000002",
+          "signature": "ceff4e8c34105461b74c641f727faa7533167770f99c23d564ec0f2762ffcf43b01995f0375136e30ea19e37603a5aa0555858caa9d7df68bde7f2e728211208"
+        },
+        {
+          "change_bytes": "6469726563742f76312f67726f75702d6368616e676500b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e000000000000000240cc395985488164d9e17e57198f6eeb36eff0cbfef76d34919a603fa81e172c0000000200000001c3a1e2f45b6d4e7f8a9b0c1d2e3f4a5b7d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d000001a2a71d8760000000280000000000000002d1e2f3a4b5c64d7e8f90a1b2c3d4e5f65c6d7e8f9a0b4c1d8e2f3a4b5c6d7e8f",
+          "signature": "787359dc3e24bbc3da8db4d9a7e3da846e56c22999d630978034600bf92ac86177a9df707f9db1aa89895cb51916a8d4cd3ee4879bbd9455a1eb1fa4a382d609"
+        }
+      ]
+    },
+    {
+      "caso": "rotulo_em_grupo_comum",
+      "descricao": "aparelho cria grupo com admin_label em claro",
+      "codigo": "formato",
+      "n": 1,
+      "registros": [
+        {
+          "change_bytes": "6469726563742f76312f67726f75702d6368616e676500b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e000000000000000100000000000000000000000000000000000000000000000000000000000000000000000100000001c3a1e2f45b6d4e7f8a9b0c1d2e3f4a5b7d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d000001a2a71c9d00000000430000000752c3b374756c6fb560a22a84e98082a02b60bbbf8c346ddb26f89ab03bb66cb9d314c26b3b648c000000017d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d00000002",
+          "signature": "45decebc46cb2326c78a8317d0f0e6ea748c4c140e327decd6893e10730322fc5cb286ffe67a326730ebbab441c004ccd88ea9d70d3cdc60a3835af0e1d9c104"
+        }
+      ]
+    },
+    {
+      "caso": "depois_de_encerrar",
+      "descricao": "registro depois de encerrar",
+      "codigo": "encerrado",
+      "n": 3,
+      "registros": [
+        {
+          "change_bytes": "6469726563742f76312f67726f75702d6368616e676500b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e000000000000000100000000000000000000000000000000000000000000000000000000000000000000000100000001c3a1e2f45b6d4e7f8a9b0c1d2e3f4a5b7d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d000001a2a71c9d000000005000000000b560a22a84e98082a02b60bbbf8c346ddb26f89ab03bb66cb9d314c26b3b648c000000022b4d6f813a5c4e7a9b1d3f5a7c9e1b2d000000017d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d00000002",
+          "signature": "ceff4e8c34105461b74c641f727faa7533167770f99c23d564ec0f2762ffcf43b01995f0375136e30ea19e37603a5aa0555858caa9d7df68bde7f2e728211208"
+        },
+        {
+          "change_bytes": "6469726563742f76312f67726f75702d6368616e676500b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e000000000000000240cc395985488164d9e17e57198f6eeb36eff0cbfef76d34919a603fa81e172c0000000700000001c3a1e2f45b6d4e7f8a9b0c1d2e3f4a5b7d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d000001a2a71d876000000000",
+          "signature": "b0e82126a5fd6eb1a28ea76b4280fb5080e79bf8ba545de96215898426f12540296042e72bdc34c80403defdd85d171e6602c63a03e5a402fc7969415e6efe06"
+        },
+        {
+          "change_bytes": "6469726563742f76312f67726f75702d6368616e676500b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e0000000000000003d9fc2d4540ec210ee2d557f9e4c71462555eb8e9c0109c9f4091b5564ac977a90000000200000001c3a1e2f45b6d4e7f8a9b0c1d2e3f4a5b7d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d000001a2a71d8760000000180000000000000001d1e2f3a4b5c64d7e8f90a1b2c3d4e5f6",
+          "signature": "6c3d1f6b45e3ef1804a3310094f3da28fa8acba39e2b06a1d040dcf598b988b76f0d4205a1085d36d98c791846a2c216c910d03546240a8285c504df3fcd3004"
+        }
+      ]
+    },
+    {
+      "caso": "membro_acima_do_limite",
+      "descricao": "grupo oficial com 100 membros; Ana adiciona Paula (seria o 101º)",
+      "codigo": "limite",
+      "n": 2,
+      "registros": [
+        {
+          "change_bytes": "6469726563742f76312f67726f75702d6368616e676500b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e0000000000000001000000000000000000000000000000000000000000000000000000000000000000000001000000020000000000000000000000000000000000000000000000000000000000000000000001a2a71c9d000000080b0000001344697265746f726961202d206f66696369616c000000000000000000000000000000000000000000000000000000000000000000000064029c06aabfbb4a9eba7edb90a5e174780000000108a6bed6b9d54231b6def1ad307fd9cb000000010b0dbe650ea044b7bb2348ecdb46930e000000010ec234c7d869460eac95406ee91fcd4600000001139d51f77ee547a79690358b1b3afcda0000000116743d8333a34857a4253cd50bf3fe0c0000000117deb8dedfeb4e508832fec0f01124c9000000011977bd3869674b89965873916864546f000000011bc42132710942e0b38ccddedb63fdd2000000011cd6f09e3edd4a7193bc0207aa83d95e00000001210b08556e1e42ccbf552b386f7b34480000000123a285bb0dbc4a49a23547101714745b0000000124433e56ecd348138811bc522e18f36c00000001258dd0953bf34b789bd5ba0fdfba542500000001272649f7e369485d8f970230e01c00c8000000012774203168c743ccb8fdff5fa782871e000000012e5be8f41c624ca09ea6e500a7f0760d0000000130dc4d6cbe404c8897639f7ad54e67b50000000132c8ad5ec5df42089efaf6c20d1c01b40000000132d4ae2848564d64aa9a1fd2d3c0d69400000001340370b2a04249eaaaef431be5702db60000000135c08f49ff7d42aea1683d69447157900000000136f419332f9e4bde862cbbdd0327af0f00000001392f6e6b4d1b406daed60c2719cfa130000000013d3ae26eed2c408a97395c973470a7ff000000013e9a13300f6148e5a672a3521d0098c90000000140b8ddd1693847ca9f2cabce75ac35720000000141dcd47796a44145ab46c98a7a81affd00000001420efcc18a074fe381c2fa7ea6413985000000014611c7e17622480ea227b40634f32c9e0000000146eafdb9c20b4d5c9b83d6f1e3357061000000014864167ef97f419b8c70789ce9053b2e000000014a40d5a65dc44b23afc2a3af9de4573c000000014a46cff179c94a65bb142feac90e197f000000014b0aeae5cb6942a2896bf1d25caabc6a000000014cd22f7855d34b64bccff1faf49d8c0e000000015017cc173e6f403ea9e58d12844ceffa0000000158a098db34094d289d07923a57a2819000000001596379e9505a47f7b2b53deada6c90d4000000015f5dfbe1fd654d1eb86960b841cf8d9c0000000160c4bf2a3e3d463da7c2ccf5a8b2893b000000016807fdefcdad409086557b7f2b1ada9c00000001698426a9f3754b0eb722bee1d2d80c95000000016a5aa2105a8b41b9bfbb7062ed3ab85d00000001727cdf3f7cae4f67b820ed14d7722fe800000001738d3284dc654027b5e4b865e8c9e3960000000174212bee37ce43e0889c00fc64233cf4000000017a8fcd074e2745a1b1a06fe14c7d6912000000017b03d2a16090411db40272cbcf84bce1000000017c78c734809442f687cb97dd147e37af000000017d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d0000000280130083c9f741daa76e5b81750beac70000000183110457ca7f4caea6bfe287f787ece1000000018340dbada4b344bd8da441a6bbf9a56d00000001838e44b5298f4b40acc8b7dd1da8718000000001856f149104074511b64dcd50c8be1b8e0000000188bb9adcd1f845fab9676a707ce6e74f000000018c63c36458e448f3861ae6ccd757e96d0000000195589cf5f1434a17b5cf2b590839e4b70000000196fa0859cdb04b6baad94b366e1a508500000001984875db6f334d8598503645e656e5a4000000019861175cb1394f3c89e6168a570ab422000000019ca08e1a9f8742d1882621e07cd751af000000019d25993544bd403d98706af49fa5486c000000019f7bf1719871440c8482805f1f47a96300000001a3a163d149004c848a4d40d2375b208d00000001aac5584640624edc8b9a470fce65df4300000001ab0047b7689d4eca906e7cdb823218ed00000001ae54c0049caa48739bdfb78249ab0a4b00000001b44338575ef541538433b39d986967d900000001b8d776e0ac34409e80db5ee01845154d00000001baa5acf98f5846a8b195312ea33b4ece00000001c13631ce74c9428da6c200640e4ce64500000001c2c58faef10744d2947ea031edaed01900000001c3a83ee50acd4d34af337ac8b4d62eb900000001c63c5ef5603b433cab8734b11fa090a100000001c6dd3637299548c980d476fb52776bff00000001c92c7cbae559435eac8ca7db554657fa00000001ce4b7666da9b4fb98782913c2486439f00000001ce79ec08a76b493cb6d37e166bf8634500000001cf2be13ce9904329bd4f18a96f1d613000000001cf2e3a3877c34ba1b8c121ed5129e62100000001d37dda9db3704c81b778191626b27f3200000001d3b9811b3a894355bc158efca706e16b00000001d3d777e2094c4ea7b290d4c09a3f8f8500000001d59018c603bf45e393dc6f4bcda1795400000001d8e8054079c042a5965be250a308ee3c00000001df2a01ae7d65438e8ec58002c5e11a0700000001e2ca8cdafed54371bd59cf8592fe740300000001e41d12ca433d4a07813b82bea2628cee00000001e91dcf2645a44211a5483675d85ce58b00000001ec0ff206e37c47b0a693d0740d64a92c00000001ed7b50beb1024c69abfdd897e76737c700000001ef13ba764abc4f3cb84eae495031e02300000001efccc78ff218447f855a5ba4d9ebfb3b00000001f07191edaeff4d258842b5fca1f5147f00000001f1ba06900d404f8f93f529f8d88c866d00000001f31a188f7f8e461bb67ac5becebc690200000001f6119d9c9a9b48578a5cecda45069b5e00000001fd5c11079c2a41598d45eacb7e85c08600000001",
+          "signature": "836cd872f92aae08ea2340a3360d7a7b33aafb915e4ffa4e1d8df1b4d42bb69a1005a44610e81b5c71d1ddeb33469589f277767f853e23c925331ca9c01e7600"
+        },
+        {
+          "change_bytes": "6469726563742f76312f67726f75702d6368616e676500b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e0000000000000002fabc74a8603d0d7aa3793120b4d87775b7f36643bbe6fc1011db4bd4657e29b60000000200000001c3a1e2f45b6d4e7f8a9b0c1d2e3f4a5b7d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d000001a2a71d8760000000180000000000000001d1e2f3a4b5c64d7e8f90a1b2c3d4e5f6",
+          "signature": "b5dcd405f75922d2dad344f96d530eaf76947baf6598f57aa8673d9acd9a070cda03d5d4f0a9b9a78ea910b90bf5bb793fec22e932a91ae4b65735229bbd510e"
+        }
+      ]
+    },
+    {
+      "caso": "criar_acima_do_limite",
+      "descricao": "criação com 101 membros",
+      "codigo": "limite",
+      "n": 1,
+      "registros": [
+        {
+          "change_bytes": "6469726563742f76312f67726f75702d6368616e676500b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e0000000000000001000000000000000000000000000000000000000000000000000000000000000000000001000000020000000000000000000000000000000000000000000000000000000000000000000001a2a71c9d000000081f0000001344697265746f726961202d206f66696369616c000000000000000000000000000000000000000000000000000000000000000000000065029c06aabfbb4a9eba7edb90a5e174780000000108a6bed6b9d54231b6def1ad307fd9cb000000010b0dbe650ea044b7bb2348ecdb46930e000000010ec234c7d869460eac95406ee91fcd4600000001139d51f77ee547a79690358b1b3afcda0000000116743d8333a34857a4253cd50bf3fe0c0000000117deb8dedfeb4e508832fec0f01124c9000000011977bd3869674b89965873916864546f000000011bc42132710942e0b38ccddedb63fdd2000000011cd6f09e3edd4a7193bc0207aa83d95e00000001210b08556e1e42ccbf552b386f7b34480000000123a285bb0dbc4a49a23547101714745b0000000124433e56ecd348138811bc522e18f36c00000001258dd0953bf34b789bd5ba0fdfba542500000001272649f7e369485d8f970230e01c00c8000000012774203168c743ccb8fdff5fa782871e000000012e5be8f41c624ca09ea6e500a7f0760d0000000130dc4d6cbe404c8897639f7ad54e67b50000000132c8ad5ec5df42089efaf6c20d1c01b40000000132d4ae2848564d64aa9a1fd2d3c0d69400000001340370b2a04249eaaaef431be5702db60000000135c08f49ff7d42aea1683d69447157900000000136f419332f9e4bde862cbbdd0327af0f00000001392f6e6b4d1b406daed60c2719cfa130000000013d3ae26eed2c408a97395c973470a7ff000000013e9a13300f6148e5a672a3521d0098c90000000140b8ddd1693847ca9f2cabce75ac35720000000141dcd47796a44145ab46c98a7a81affd00000001420efcc18a074fe381c2fa7ea6413985000000014611c7e17622480ea227b40634f32c9e0000000146eafdb9c20b4d5c9b83d6f1e3357061000000014864167ef97f419b8c70789ce9053b2e000000014a40d5a65dc44b23afc2a3af9de4573c000000014a46cff179c94a65bb142feac90e197f000000014b0aeae5cb6942a2896bf1d25caabc6a000000014cd22f7855d34b64bccff1faf49d8c0e000000015017cc173e6f403ea9e58d12844ceffa0000000158a098db34094d289d07923a57a2819000000001596379e9505a47f7b2b53deada6c90d4000000015f5dfbe1fd654d1eb86960b841cf8d9c0000000160c4bf2a3e3d463da7c2ccf5a8b2893b000000016807fdefcdad409086557b7f2b1ada9c00000001698426a9f3754b0eb722bee1d2d80c95000000016a5aa2105a8b41b9bfbb7062ed3ab85d00000001727cdf3f7cae4f67b820ed14d7722fe800000001738d3284dc654027b5e4b865e8c9e3960000000174212bee37ce43e0889c00fc64233cf4000000017a8fcd074e2745a1b1a06fe14c7d6912000000017b03d2a16090411db40272cbcf84bce1000000017c78c734809442f687cb97dd147e37af000000017d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d0000000280130083c9f741daa76e5b81750beac70000000183110457ca7f4caea6bfe287f787ece1000000018340dbada4b344bd8da441a6bbf9a56d00000001838e44b5298f4b40acc8b7dd1da8718000000001856f149104074511b64dcd50c8be1b8e0000000188bb9adcd1f845fab9676a707ce6e74f000000018c63c36458e448f3861ae6ccd757e96d0000000195589cf5f1434a17b5cf2b590839e4b70000000196fa0859cdb04b6baad94b366e1a508500000001984875db6f334d8598503645e656e5a4000000019861175cb1394f3c89e6168a570ab422000000019ca08e1a9f8742d1882621e07cd751af000000019d25993544bd403d98706af49fa5486c000000019f7bf1719871440c8482805f1f47a96300000001a3a163d149004c848a4d40d2375b208d00000001aac5584640624edc8b9a470fce65df4300000001ab0047b7689d4eca906e7cdb823218ed00000001ae54c0049caa48739bdfb78249ab0a4b00000001b44338575ef541538433b39d986967d900000001b8d776e0ac34409e80db5ee01845154d00000001baa5acf98f5846a8b195312ea33b4ece00000001c13631ce74c9428da6c200640e4ce64500000001c2c58faef10744d2947ea031edaed01900000001c3a83ee50acd4d34af337ac8b4d62eb900000001c63c5ef5603b433cab8734b11fa090a100000001c6dd3637299548c980d476fb52776bff00000001c92c7cbae559435eac8ca7db554657fa00000001ce4b7666da9b4fb98782913c2486439f00000001ce79ec08a76b493cb6d37e166bf8634500000001cf2be13ce9904329bd4f18a96f1d613000000001cf2e3a3877c34ba1b8c121ed5129e62100000001d1e2f3a4b5c64d7e8f90a1b2c3d4e5f600000001d37dda9db3704c81b778191626b27f3200000001d3b9811b3a894355bc158efca706e16b00000001d3d777e2094c4ea7b290d4c09a3f8f8500000001d59018c603bf45e393dc6f4bcda1795400000001d8e8054079c042a5965be250a308ee3c00000001df2a01ae7d65438e8ec58002c5e11a0700000001e2ca8cdafed54371bd59cf8592fe740300000001e41d12ca433d4a07813b82bea2628cee00000001e91dcf2645a44211a5483675d85ce58b00000001ec0ff206e37c47b0a693d0740d64a92c00000001ed7b50beb1024c69abfdd897e76737c700000001ef13ba764abc4f3cb84eae495031e02300000001efccc78ff218447f855a5ba4d9ebfb3b00000001f07191edaeff4d258842b5fca1f5147f00000001f1ba06900d404f8f93f529f8d88c866d00000001f31a188f7f8e461bb67ac5becebc690200000001f6119d9c9a9b48578a5cecda45069b5e00000001fd5c11079c2a41598d45eacb7e85c08600000001",
+          "signature": "8fe45625947e59e9e0899dc233da184bb0ffa455058ec2a51fd4d1e81555f5a1ea2a128869a01130ecf66181ffdf37b69c7a754a18f3ee75ba9a98b39a40ed0d"
+        }
+      ]
+    }
+  ]
+}

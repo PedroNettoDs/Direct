@@ -1,0 +1,50 @@
+{
+  "descricao": "Chaves fixas usadas por todos os vetores. sign_sk_libsodium = seed||pub (64 bytes), igual a crypto_sign_seed_keypair e a ed25519.NewKeyFromSeed.",
+  "servidor": {
+    "sign_seed": "b02dc8882ccac29d17bf6289c48f9066cbf6ce8d1a992aa7e86e23027f9e96e6",
+    "sign_sk_libsodium": "b02dc8882ccac29d17bf6289c48f9066cbf6ce8d1a992aa7e86e23027f9e96e644bedfd5b728133ba231598a403c549c15010b0e94efdfa15707a2095995f764",
+    "sign_pub": "44bedfd5b728133ba231598a403c549c15010b0e94efdfa15707a2095995f764"
+  },
+  "escrow": {
+    "kex_sk": "63a0b3cb6259e4da148074a24f68966059d97c9dc6d2d23448383dc8f5c8bc0f",
+    "kex_pub": "1cbb1f94031d027ab6f729932aa9678c081287915fcc57962dd5f07d11bca737"
+  },
+  "aparelhos": [
+    {
+      "nome": "A",
+      "device_id": "c3a1e2f4-5b6d-4e7f-8a9b-0c1d2e3f4a5b",
+      "user_id": "7d0c9b8a-1e2f-4a3b-9c4d-5e6f7a8b9c0d",
+      "admin_label": "Ana Souza - Diretoria",
+      "sign_seed": "25abd75ee221ec132bd2e91c3b87813593ece875c1e0848013162f9274af6bac",
+      "sign_sk_libsodium": "25abd75ee221ec132bd2e91c3b87813593ece875c1e0848013162f9274af6bac3d766244a62aa71f7420005b1f31c18ed60a96371024cde8564f03ace99d4380",
+      "sign_pub": "3d766244a62aa71f7420005b1f31c18ed60a96371024cde8564f03ace99d4380",
+      "kex_sk": "1f6a1dedc98ec50b862abecbd9b571e37f3a202e8cfc7d875a428b192b0bebb1",
+      "kex_pub": "a7790393b6c64f2fccbd3de922157b34bb3af78a17658f03a9d9129263f58514",
+      "codigo_aparelho": "98278 42133 43861 62296"
+    },
+    {
+      "nome": "B",
+      "device_id": "1f2e3d4c-5b6a-4978-8695-a4b3c2d1e0f9",
+      "user_id": "2b4d6f81-3a5c-4e7a-9b1d-3f5a7c9e1b2d",
+      "admin_label": "João - Financeiro",
+      "sign_seed": "41a2f83a0aadb19e18dcfb6c5cdd33bfa8cf49c2bfc87799b91e9181629c737a",
+      "sign_sk_libsodium": "41a2f83a0aadb19e18dcfb6c5cdd33bfa8cf49c2bfc87799b91e9181629c737a952b2550b8e94159dde8fea15a64e6655d8c049b17ee6a36ae0990152f44c3b4",
+      "sign_pub": "952b2550b8e94159dde8fea15a64e6655d8c049b17ee6a36ae0990152f44c3b4",
+      "kex_sk": "65fc5e87fdea7e6a5b5eec1ae0070d663c96301fafc046b1a4542b2cfd0cf2bf",
+      "kex_pub": "4f57bed9fc0648b4252a6eacea225556bb73684a49d3e2ed78912182d3372828",
+      "codigo_aparelho": "94624 23736 84082 02889"
+    },
+    {
+      "nome": "C",
+      "device_id": "8e7d6c5b-4a39-4281-b7c6-d5e4f3a2b1c0",
+      "user_id": "2b4d6f81-3a5c-4e7a-9b1d-3f5a7c9e1b2d",
+      "admin_label": "João - Financeiro",
+      "sign_seed": "7f47c95a69754503e631033021feb86f117a324d13afa7856f6f7e197ea8d807",
+      "sign_sk_libsodium": "7f47c95a69754503e631033021feb86f117a324d13afa7856f6f7e197ea8d807e7431cde9faf9b01c0177d6c0269e853d5228c9097f41520940d0b00f5ac0888",
+      "sign_pub": "e7431cde9faf9b01c0177d6c0269e853d5228c9097f41520940d0b00f5ac0888",
+      "kex_sk": "f9b705ae4af577d1b9117432445eeaa97ed04c2ff0cf240977dd909e20e2424a",
+      "kex_pub": "55f8ba0e3a54552fb6cbe336254daf1be22babc2007dbb4bb128a07deabc2f6d",
+      "codigo_aparelho": "77989 63673 24077 65239"
+    }
+  ]
+}

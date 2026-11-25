@@ -1,0 +1,50 @@
+{
+  "descricao": "Revogação pré-assinada do aparelho A (protocolo-grupos §8). Verificar com o sign_pub do aparelho indicado em device_id e a server_sign_pub de ../chaves.json.",
+  "aparelho": "A",
+  "created_at": 1798200000000,
+  "self_revoke_bytes": "6469726563742f76312f73656c662d7265766f6b650044bedfd5b728133ba231598a403c549c15010b0e94efdfa15707a2095995f764c3a1e2f45b6d4e7f8a9b0c1d2e3f4a5b000001a2ad127e00",
+  "sig": "cf5a1b09cf24e7f97817aba25330f8f15ffbc8eef9af0454e86be6ba48a4eb0d5f18ddd9ead6d4f8b7b6882cf82d50c1b9e33d6fb741f8b269e4aaf53331c40a",
+  "requisicao": {
+    "device_id": "c3a1e2f4-5b6d-4e7f-8a9b-0c1d2e3f4a5b",
+    "created_at": 1798200000000,
+    "sig": "z1obCc8k5_l4F6uiUzD48V_7yO75rwRU6Gvmukik6w1fGN3Z6tbU-Le2iCz4LVDBueM9b7dB-LJp5Kr1MzHECg"
+  },
+  "deve_falhar": [
+    {
+      "caso": "outro_aparelho",
+      "descricao": "assinatura de A apresentada com device_id de B",
+      "requisicao": {
+        "device_id": "1f2e3d4c-5b6a-4978-8695-a4b3c2d1e0f9",
+        "created_at": 1798200000000,
+        "sig": "z1obCc8k5_l4F6uiUzD48V_7yO75rwRU6Gvmukik6w1fGN3Z6tbU-Le2iCz4LVDBueM9b7dB-LJp5Kr1MzHECg"
+      }
+    },
+    {
+      "caso": "horario_trocado",
+      "descricao": "created_at diferente do assinado",
+      "requisicao": {
+        "device_id": "c3a1e2f4-5b6d-4e7f-8a9b-0c1d2e3f4a5b",
+        "created_at": 1798200000001,
+        "sig": "z1obCc8k5_l4F6uiUzD48V_7yO75rwRU6Gvmukik6w1fGN3Z6tbU-Le2iCz4LVDBueM9b7dB-LJp5Kr1MzHECg"
+      }
+    },
+    {
+      "caso": "bit_trocado",
+      "descricao": "assinatura com um bit trocado",
+      "requisicao": {
+        "device_id": "c3a1e2f4-5b6d-4e7f-8a9b-0c1d2e3f4a5b",
+        "created_at": 1798200000000,
+        "sig": "z1obCc8l5_l4F6uiUzD48V_7yO75rwRU6Gvmukik6w1fGN3Z6tbU-Le2iCz4LVDBueM9b7dB-LJp5Kr1MzHECg"
+      }
+    },
+    {
+      "caso": "outro_servidor",
+      "descricao": "assinada sobre server_sign_pub de outro servidor",
+      "requisicao": {
+        "device_id": "c3a1e2f4-5b6d-4e7f-8a9b-0c1d2e3f4a5b",
+        "created_at": 1798200000000,
+        "sig": "xPusKt1iffcy0wH9X4KHuwDvrg2tSWtphd8D5naNT5I9Dy0S0-dIw2SPv-wYVgQEW9srKSk6Agrt-waZjiNnCQ"
+      }
+    }
+  ]
+}

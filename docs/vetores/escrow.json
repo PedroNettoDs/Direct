@@ -1,0 +1,26 @@
+{
+  "arquivo": {
+    "senha_utf8": "cavalo correto bateria grampo",
+    "salt": "abaa97e56d6d188f67ef9341be3ddec5",
+    "opslimit": 3,
+    "memlimit_kib": 262144,
+    "memlimit_bytes": 268435456,
+    "chave_argon2id": "8ba6d5486ce5e2b7b3b0c88666189d8c9f6eba02257d03cefff3ae9a720a18af",
+    "nonce": "5b6a272f3b9e7f21b9ee0c5835e9703900e0f36676d5a6de",
+    "cabecalho": "6469726563742d657363726f772d76310000000300040000abaa97e56d6d188f67ef9341be3ddec55b6a272f3b9e7f21b9ee0c5835e9703900e0f36676d5a6de",
+    "conteudo_arquivo": "6469726563742d657363726f772d76310000000300040000abaa97e56d6d188f67ef9341be3ddec55b6a272f3b9e7f21b9ee0c5835e9703900e0f36676d5a6de369015ec80b930c124911db9afef3e60154f71e6a3cbafcf38ce33107707e4d1779bcbfa91f997fd9b1f92cd036565a0",
+    "escrow_sk": "63a0b3cb6259e4da148074a24f68966059d97c9dc6d2d23448383dc8f5c8bc0f",
+    "escrow_pub": "1cbb1f94031d027ab6f729932aa9678c081287915fcc57962dd5f07d11bca737"
+  },
+  "rewrap": {
+    "conversation_id": "a0b1c2d3-e4f5-4a6b-8c7d-9e0f1a2b3c4d",
+    "epoch": 1,
+    "escrow_wrap": "aba428f1bece831c9cf80b80400d098cec5eb94100922b79c1bad1adb6812360aab0972cc448526e2a797c87a2d07af603fa6adc7ecdfbf7e19d7d7b3870f976b8583287342bb6207acf84c5eefe0a3c",
+    "chave_epoca": "35297f5c97c10e1469caf5b7d1c5d55145a8f89ec270f737cbe60af04eef47ab",
+    "key_commitment": "0688350fba1e334f2433184778bf8612a8df8ec218ef2bb3bdacc3c539656488",
+    "destino": "C",
+    "eph_sk": "351e32ea985379b32d4dc44307d2f7577c0aeb58d3a70bc87114872a581d9952",
+    "eph_pub": "745e623f146ac743e76a8182be8f0e6dc0b97dbfceec623654e437f0903e8d5d",
+    "wrapped_key": "745e623f146ac743e76a8182be8f0e6dc0b97dbfceec623654e437f0903e8d5dbb627688e3ea9e19ba65af857cbf0b43dbe713c4d89635213129fdec9aba2110d3f849f7b1e1fefb22f17015215a3abd"
+  }
+}

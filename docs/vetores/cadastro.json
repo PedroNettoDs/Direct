@@ -1,0 +1,78 @@
+{
+  "aparelho": "A",
+  "invite_seed": "eec3a51abf91f6129c2ce91b9e81520420bb8b3a71f4348021f4ca113da078c4",
+  "invite_pub": "be9d45c34b5e89086f19aca3a2a7d46cb7b164aa9ebcca3a91fe50e808dafda3",
+  "enroll_bytes": "6469726563742f76312f656e726f6c6c00be9d45c34b5e89086f19aca3a2a7d46cb7b164aa9ebcca3a91fe50e808dafda33d766244a62aa71f7420005b1f31c18ed60a96371024cde8564f03ace99d4380a7790393b6c64f2fccbd3de922157b34bb3af78a17658f03a9d9129263f58514",
+  "invite_sig": "418d4308cad1a5cc66b61ea74eeb5eb2ddfd3188720ce894b5d4e37dc5657c3b372aa39f5e33b3c5404a0f6a8439536cc5ba7a6aaaa09e5644cb2c0a4e0d680a",
+  "proof_sig": "b6a40e87fa997bec871f1b2ca97095e56f4e5da5e2cfc7a24f09a810ca1abef2c9d37c00bb47bcd16681b19fa406ba58eb3f9020c6287a97da8ea1f8b5208b0b",
+  "requisicao": {
+    "invite_pub": "vp1Fw0teiQhvGayjoqfUbLexZKqevMo6kf5Q6Aja_aM",
+    "sign_pub": "PXZiRKYqpx90IABbHzHBjtYKljcQJM3oVk8DrOmdQ4A",
+    "kex_pub": "p3kDk7bGTy_MvT3pIhV7NLs694oXZY8DqdkSkmP1hRQ",
+    "platform": "android",
+    "model": "Pixel 8",
+    "os_version": "15",
+    "app_version": "1.0.0",
+    "invite_sig": "QY1DCMrRpcxmth6nTutest39MYhyDOiUtdTjfcVlfDs3KqOfXjOzxUBKD2qEOVNsxbp6aqqgnlZEyywKTg1oCg",
+    "proof": "tqQOh_qZe-yHHxssqXCV5W9OXaXiz8eiTwmoEMoavvLJ03wAu0e80WaBsZ-kBrpY6z-QIMYoepfajqH4tSCLCw"
+  },
+  "certificados": [
+    {
+      "aparelho": "A",
+      "enrolled_at": 1795000000000,
+      "expires_at": 1810552000000,
+      "cert_bytes": "6469726563742f76312f6465766963652d6365727400c3a1e2f45b6d4e7f8a9b0c1d2e3f4a5b7d0c9b8a1e2f4a3b9c4d5e6f7a8b9c0d3d766244a62aa71f7420005b1f31c18ed60a96371024cde8564f03ace99d4380a7790393b6c64f2fccbd3de922157b34bb3af78a17658f03a9d9129263f58514000001a1ee565e00000001a58d4f0e0000000015416e6120536f757a61202d2044697265746f726961",
+      "cert_sig": "2a60202bebb585be3108cfe8bc39ed587eeb0913aebacf1a64c30fe28d1903d8d74431d08a42840265b96ab41fa6d2086fc3acd9dbe81919b47a201f7c9aa705",
+      "json": {
+        "device_id": "c3a1e2f4-5b6d-4e7f-8a9b-0c1d2e3f4a5b",
+        "user_id": "7d0c9b8a-1e2f-4a3b-9c4d-5e6f7a8b9c0d",
+        "admin_label": "Ana Souza - Diretoria",
+        "sign_pub": "PXZiRKYqpx90IABbHzHBjtYKljcQJM3oVk8DrOmdQ4A",
+        "kex_pub": "p3kDk7bGTy_MvT3pIhV7NLs694oXZY8DqdkSkmP1hRQ",
+        "enrolled_at": 1795000000000,
+        "expires_at": 1810552000000,
+        "sig": "KmAgK-u1hb4xCM_ovDntWH7rCROuus8aZMMP4o0ZA9jXRDHQikKEAmW5arQfptIIb8Os2dvoGRm0eiAffJqnBQ"
+      }
+    },
+    {
+      "aparelho": "B",
+      "enrolled_at": 1795003600000,
+      "expires_at": 1810555600000,
+      "cert_bytes": "6469726563742f76312f6465766963652d63657274001f2e3d4c5b6a49788695a4b3c2d1e0f92b4d6f813a5c4e7a9b1d3f5a7c9e1b2d952b2550b8e94159dde8fea15a64e6655d8c049b17ee6a36ae0990152f44c3b44f57bed9fc0648b4252a6eacea225556bb73684a49d3e2ed78912182d3372828000001a1ee8d4c80000001a58d85fc80000000124a6fc3a36f202d2046696e616e636569726f",
+      "cert_sig": "8449c2607bab5fdbb9f0bda355c7eb55be3996e07182937a4fc96c2060a3560181f0482df480ce8b32d7877752cca5e6887445dfe500ea315cccf5144fe28101",
+      "json": {
+        "device_id": "1f2e3d4c-5b6a-4978-8695-a4b3c2d1e0f9",
+        "user_id": "2b4d6f81-3a5c-4e7a-9b1d-3f5a7c9e1b2d",
+        "admin_label": "João - Financeiro",
+        "sign_pub": "lSslULjpQVnd6P6hWmTmZV2MBJsX7mo2rgmQFS9Ew7Q",
+        "kex_pub": "T1e-2fwGSLQlKm6s6iJVVrtzaEpJ0-LteJEhgtM3KCg",
+        "enrolled_at": 1795003600000,
+        "expires_at": 1810555600000,
+        "sig": "hEnCYHurX9u58L2jVcfrVb45luBxgpN6T8lsIGCjVgGB8Egt9IDOizLXh3dSzKXmiHRF3-UA6jFczPUUT-KBAQ"
+      }
+    },
+    {
+      "aparelho": "C",
+      "enrolled_at": 1797592000000,
+      "expires_at": 1813144000000,
+      "cert_bytes": "6469726563742f76312f6465766963652d63657274008e7d6c5b4a394281b7c6d5e4f3a2b1c02b4d6f813a5c4e7a9b1d3f5a7c9e1b2de7431cde9faf9b01c0177d6c0269e853d5228c9097f41520940d0b00f5ac088855f8ba0e3a54552fb6cbe336254daf1be22babc2007dbb4bb128a07deabc2f6d000001a288d52600000001a627cdd600000000124a6fc3a36f202d2046696e616e636569726f",
+      "cert_sig": "bb0ef180b2d4b8b8bd6d026c1e3ec357790da0ff668617ad3dce6383b0ca7c1d892489a750e43b19d6c1ca1705136c31b8427553d92efc6f0e8f8fbb8544eb02",
+      "json": {
+        "device_id": "8e7d6c5b-4a39-4281-b7c6-d5e4f3a2b1c0",
+        "user_id": "2b4d6f81-3a5c-4e7a-9b1d-3f5a7c9e1b2d",
+        "admin_label": "João - Financeiro",
+        "sign_pub": "50Mc3p-vmwHAF31sAmnoU9UijJCX9BUglA0LAPWsCIg",
+        "kex_pub": "Vfi6DjpUVS-2y-M2JU2vG-Irq8IAfbtLsSigfeq8L20",
+        "enrolled_at": 1797592000000,
+        "expires_at": 1813144000000,
+        "sig": "uw7xgLLUuLi9bQJsHj7DV3kNoP9mhhetPc5jg7DKfB2JJImnUOQ7GdbByhcFE2wxuEJ1U9ku_G8Oj4-7hUTrAg"
+      }
+    }
+  ],
+  "kex_pub_ordem_baixa": [
+    "0000000000000000000000000000000000000000000000000000000000000000",
+    "0100000000000000000000000000000000000000000000000000000000000000",
+    "e0eb7a7c3b41b8ae1656e3faf19fc46ada098deb9c32b1fd866205165f49b800",
+    "5f9c95bca3508c24b1d0b1559c83ef5b04445cc4581c8e86d8224eddd09f1157"
+  ]
+}

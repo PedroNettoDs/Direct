@@ -1,0 +1,83 @@
+{
+  "descricao": "Mensagem selada (protocolo-grupos §7.2), embaralhado, evento member_access e erro de blob. O embaralhado depende só de conversation_id, seq e tamanho; não depende do conteúdo.",
+  "alfabeto": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRST#@%&$*!?",
+  "exemplos": [
+    {
+      "len_ciphertext": 272,
+      "scramble_len": 12,
+      "hash_entrada": "6469726563742f76312f7365616c656400b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e0000000000000007",
+      "selada": {
+        "conversation_id": "b7c8d9e0-f1a2-4b3c-8d4e-5f6a7b8c9d0e",
+        "seq": 7,
+        "message_id": "0b1c2d3e-4f5a-4b6c-8d7e-9f0a1b2c3d40",
+        "sender_device_id": "9a8b7c6d-5e4f-4a3b-8c2d-1e0f9a8b7c6d",
+        "sender_user_id": "5c6d7e8f-9a0b-4c1d-8e2f-3a4b5c6d7e8f",
+        "created_at": 1798100600000,
+        "sealed": true,
+        "scramble": "v*SgAeg9dNL8"
+      }
+    },
+    {
+      "len_ciphertext": 1040,
+      "scramble_len": 24,
+      "hash_entrada": "6469726563742f76312f7365616c656400b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e0000000000000008",
+      "selada": {
+        "conversation_id": "b7c8d9e0-f1a2-4b3c-8d4e-5f6a7b8c9d0e",
+        "seq": 8,
+        "message_id": "0b1c2d3e-4f5a-4b6c-8d7e-9f0a1b2c3d41",
+        "sender_device_id": "9a8b7c6d-5e4f-4a3b-8c2d-1e0f9a8b7c6d",
+        "sender_user_id": "5c6d7e8f-9a0b-4c1d-8e2f-3a4b5c6d7e8f",
+        "created_at": 1798100601000,
+        "sealed": true,
+        "scramble": "3ca&c$S8ba810GAMpids&@h*"
+      }
+    },
+    {
+      "len_ciphertext": 16400,
+      "scramble_len": 32,
+      "hash_entrada": "6469726563742f76312f7365616c656400b7c8d9e0f1a24b3c8d4e5f6a7b8c9d0e0000000000000009",
+      "selada": {
+        "conversation_id": "b7c8d9e0-f1a2-4b3c-8d4e-5f6a7b8c9d0e",
+        "seq": 9,
+        "message_id": "0b1c2d3e-4f5a-4b6c-8d7e-9f0a1b2c3d42",
+        "sender_device_id": "9a8b7c6d-5e4f-4a3b-8c2d-1e0f9a8b7c6d",
+        "sender_user_id": "5c6d7e8f-9a0b-4c1d-8e2f-3a4b5c6d7e8f",
+        "created_at": 1798100602000,
+        "sealed": true,
+        "scramble": "SE?RKriFd3896FLhE%T7vI&SSAsRl6hs"
+      }
+    }
+  ],
+  "evento_member_access": {
+    "type": "member_access",
+    "user_id": "5c6d7e8f-9a0b-4c1d-8e2f-3a4b5c6d7e8f",
+    "active": false,
+    "at": 1798100700000,
+    "conversations": [
+      "b7c8d9e0-f1a2-4b3c-8d4e-5f6a7b8c9d0e"
+    ]
+  },
+  "access_events": {
+    "events": [
+      {
+        "id": 41,
+        "user_id": "5c6d7e8f-9a0b-4c1d-8e2f-3a4b5c6d7e8f",
+        "active": false,
+        "at": 1798100700000
+      },
+      {
+        "id": 42,
+        "user_id": "5c6d7e8f-9a0b-4c1d-8e2f-3a4b5c6d7e8f",
+        "active": true,
+        "at": 1798190000000
+      }
+    ],
+    "has_more": false
+  },
+  "erro_blob": {
+    "error": {
+      "code": "sender_inactive",
+      "message": "remetente sem acesso"
+    }
+  }
+}
